@@ -1,5 +1,7 @@
 # 日本地理マスター — Codex移行用 v15
 
+移行後の変更：漢字とかなの混在回答に対応しました（例：「北かいどう」「ほっかい道」「富士さん」）。「正式表記のみ正解」の設定は維持しています。新しいローカル配信版は `mixed-kana-20261030` です。以下の同一性・移行報告は取得時点の記録で、本番サイトへの公開を示すものではありません。
+
 公開中の日本地理マスターを引き継ぐためのプロジェクトです。新しいゲームや公開サイトは作成していません。
 
 - 元サイト：https://nihon-chiri-master.prime-otter-8314.chatgpt.site
@@ -53,6 +55,10 @@ npm run check          # ビルド＋上記すべて
 | scripts/ | ビルド、教材編集、Work用・localhost用の開発処理 |
 | tests/ | DOM、SQLite、採点、認証、ヒント、オフライン等の回帰試験 |
 | UPSTREAM_SOURCE.json | 元コミットと元ファイルごとのSHA-256、除外・補助変更の記録 |
+
+## Cloudflareでの開発・公開
+
+Workers＋専用D1向けの設定を追加しています。`npm run cf:check` で公開せずにビルド確認、`npm run cf:db:local` と `npm run cf:dev` でローカル起動できます。手順と認証設定は [Cloudflare手順](docs/CLOUDFLARE.md) を参照してください。Cloudflareへの公開は未実施です。旧サイトは残し、新しいURLで公開する方針です。
 
 ## 公開とデータ
 

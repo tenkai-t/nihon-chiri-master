@@ -1,0 +1,14 @@
+{
+  "dist/app.js": {
+    "sha256": "f9e8b59ffefd02f4d573fc1b629aec6d63c7f3dccf5bf4c1fda16d0526f1242b",
+    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID."
+  },
+  "dist/index.html": {
+    "sha256": "ffbdf54607430caf74df86e90831bdc15ea3a4a98cfd9e2e45daa7982a4f3305",
+    "reason": "Reference the new immutable mixed-kana release."
+  },
+  "dist/sw.js": {
+    "sha256": "27128d24fc4e951a7545f0f77c4fec9c5c61abfcfe84ed4286e3860fed17e678",
+    "reason": "Cache and verify the new release without replacing old caches."
+  }
+}

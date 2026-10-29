@@ -3,17 +3,23 @@
   "private": true,
   "version": "3.0.0",
   "scripts": {
-    "test": "node tests/stage1.cjs && node tests/stage2.cjs && node tests/stage3.cjs && node tests/handwriting.cjs && node tests/sw.cjs && node tests/reset-once.cjs && node tests/expansion.cjs && node tests/learning.cjs && node tests/classroom.cjs && node tests/editorial-hints.cjs && node tests/test-rates.cjs && node tests/common-security.cjs && node tests/security-pin.cjs && node tests/ranking-common.mjs && node tests/worker-common.mjs && node tests/official-ui.mjs && node tests/ux.cjs && node tests/hint-layout.cjs",
+    "test": "node tests/stage1.cjs && node tests/stage2.cjs && node tests/stage3.cjs && node tests/handwriting.cjs && node tests/sw.cjs && node tests/reset-once.cjs && node tests/expansion.cjs && node tests/learning.cjs && node tests/classroom.cjs && node tests/editorial-hints.cjs && node tests/test-rates.cjs && node tests/common-security.cjs && node tests/security-pin.cjs && node tests/ranking-common.mjs && node tests/worker-common.mjs && node tests/official-ui.mjs && node tests/ux.cjs && node tests/hint-layout.cjs && node tests/mixed-kana.cjs",
     "dev": "node scripts/dev-local.mjs",
     "build": "node scripts/build-local.mjs",
     "predev": "npm run build",
     "test:migration": "node tests/migration-local.mjs",
-    "check": "npm run build && npm test && npm run test:migration"
+    "check": "npm run build && npm test && npm run test:migration",
+    "cf:dev": "node scripts/cloudflare.mjs dev --local",
+    "cf:check": "node scripts/cloudflare.mjs deploy --dry-run --outdir .local/cloudflare/bundle",
+    "cf:deploy": "node scripts/cloudflare.mjs deploy",
+    "cf:db:local": "node scripts/cloudflare.mjs d1 migrations apply DB --local",
+    "cf:smoke": "node tests/cloudflare-smoke.mjs"
   },
   "devDependencies": {
-    "jsdom": "30.1.3",
     "drizzle-kit": "0.31.10",
-    "drizzle-orm": "0.45.2"
+    "drizzle-orm": "0.45.2",
+    "jsdom": "30.1.3",
+    "wrangler": "4.155.0"
   },
   "engines": {
     "node": ">=24.0.0"
