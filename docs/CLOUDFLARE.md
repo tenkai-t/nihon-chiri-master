@@ -32,16 +32,18 @@ npm run cf:dev -- --port 8787
 
 環境設定を確認・保存し、環境をPublishする。この環境のPublishと、Cloudflareへのサイト公開は別の操作。設定反映後に `node scripts/cloudflare.mjs whoami` などの読み取りで接続を再確認する。トークンの表示・再発行・別トークン要求を先に行わない。
 
-## 認証設定後の公開作業（まだ未実行）
+## 公開作業
+
+所有者がCloudflareの画面で専用DB `nihon-chiri-master-db` を作成済み。Database ID `fd06b6db-9bf5-4907-8d0e-058f43a30ea2` とアカウントIDは `wrangler.jsonc` に設定済み。初期スキーマ適用とサイト公開はまだ未実施。GitHub連携で公開する場合、CodexへAPIトークンを登録する必要はない。以下のDB作成手順2～3は完了しているので再実行しない。
 
 1. 正しいアカウントが選ばれていることを確認し、既存Worker一覧とD1一覧を読み取る。名前 `nihon-chiri-master` に既存リソースがある場合、所有者を確認するまで上書き・再利用しない。特に世界マスターのDBは選ばない。
 2. 新規の専用D1を作る：
 
    ```sh
-   node scripts/cloudflare.mjs d1 create nihon-chiri-master --location apac --update-config=false
+   node scripts/cloudflare.mjs d1 create nihon-chiri-master-db --location apac --update-config=false
    ```
 
-3. 返されたUUIDだけを `wrangler.jsonc` の `database_id` に設定する。現在のゼロUUIDは未設定の目印であり、実DBではない。未設定のままリモートSQL適用・公開を実行するとラッパーが停止する。
+3. 返されたUUIDだけを `wrangler.jsonc` の `database_id` に設定する。ゼロUUIDは未設定の目印であり、実DBではない（現在は実UUIDを設定済み）。未設定のままリモートSQL適用・公開を実行するとラッパーが停止する。
 4. 新しく作成した空のD1であることを確認してから初期スキーマを適用する：
 
    ```sh

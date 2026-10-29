@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "nihon-chiri-master",
+  "account_id": "3a5e7346f35a8441ea765cf2167bd766",
   "main": "dist/server/index.js",
   "compatibility_date": "2026-10-01",
   "workers_dev": true,
@@ -9,8 +10,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "nihon-chiri-master",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_name": "nihon-chiri-master-db",
+      "database_id": "fd06b6db-9bf5-4907-8d0e-058f43a30ea2",
       "migrations_dir": "drizzle"
     }
   ]
