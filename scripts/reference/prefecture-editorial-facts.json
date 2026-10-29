@@ -1,0 +1,848 @@
+[
+  {
+    "id": "p1",
+    "foods": [
+      "ジンギスカン",
+      "石狩鍋"
+    ],
+    "source": {
+      "slug": "hokkaido",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/hokkaido.html",
+      "sha256": "3da02bcdd61c1e3a4b0fb97b227af149e90496b46a20af0b807bef1251c9ffb9",
+      "checkedAt": "2026-10-23",
+      "characters": 4255
+    },
+    "evidenceTerms": [
+      "ジンギスカン",
+      "石狩鍋"
+    ]
+  },
+  {
+    "id": "p2",
+    "foods": [
+      "りんご",
+      "せんべい汁"
+    ],
+    "source": {
+      "slug": "aomori",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/aomori.html",
+      "sha256": "0a9ba7d42c5271ffe7cfbf5a789306df6c9c548f1bac11f69f581b10f90602e7",
+      "checkedAt": "2026-10-23",
+      "characters": 4913
+    },
+    "evidenceTerms": [
+      "りんご",
+      "せんべい汁"
+    ]
+  },
+  {
+    "id": "p3",
+    "foods": [
+      "まめぶ汁",
+      "ひっつみ"
+    ],
+    "source": {
+      "slug": "iwate",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/iwate.html",
+      "sha256": "6f77ad8bce813d5dc630aa32282bb8fd45200252e707dee81c000e73b8a11f5c",
+      "checkedAt": "2026-10-23",
+      "characters": 5429
+    },
+    "evidenceTerms": [
+      "まめぶ汁",
+      "ひっつみ"
+    ]
+  },
+  {
+    "id": "p4",
+    "foods": [
+      "ずんだ餅",
+      "はらこ飯"
+    ],
+    "source": {
+      "slug": "miyagi",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/miyagi.html",
+      "sha256": "052266866399739f13e19a7c2125cc96a046d4cea6633f50e71d906ab8fe2e4a",
+      "checkedAt": "2026-10-23",
+      "characters": 3742
+    },
+    "evidenceTerms": [
+      "ずんだ餅",
+      "はらこ飯"
+    ]
+  },
+  {
+    "id": "p5",
+    "foods": [
+      "いぶりがっこ",
+      "しょっつる鍋"
+    ],
+    "source": {
+      "slug": "akita",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/akita.html",
+      "sha256": "d6f163f060e00693713f5c32ed066ff8c0507e7a02b25fa3ebda429727a0d022",
+      "checkedAt": "2026-10-23",
+      "characters": 5365
+    },
+    "evidenceTerms": [
+      "いぶりがっこ",
+      "しょっつる鍋"
+    ]
+  },
+  {
+    "id": "p6",
+    "foods": [
+      "さくらんぼ",
+      "芋煮"
+    ],
+    "source": {
+      "slug": "yamagata",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/yamagata.html",
+      "sha256": "deb926a2b1211d6034ccab8dabe32f60bfae4df8339b90dbadd77662d7dd8d07",
+      "checkedAt": "2026-10-23",
+      "characters": 3987
+    },
+    "evidenceTerms": [
+      "さくらんぼ",
+      "芋煮"
+    ]
+  },
+  {
+    "id": "p7",
+    "foods": [
+      "もも",
+      "こづゆ"
+    ],
+    "source": {
+      "slug": "fukushima",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/fukushima.html",
+      "sha256": "b27ecdea2a09a160557f518bdb675ec0a0c6af56fbd7945d9cbca6da55d4445b",
+      "checkedAt": "2026-10-23",
+      "characters": 4336
+    },
+    "evidenceTerms": [
+      "もも",
+      "こづゆ"
+    ]
+  },
+  {
+    "id": "p8",
+    "foods": [
+      "納豆",
+      "あんこう鍋"
+    ],
+    "source": {
+      "slug": "ibaraki",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/ibaraki.html",
+      "sha256": "a48930e32e95607772d6ea84f146df067a8f1d5417a2cb58ac5fe74998bc2f01",
+      "checkedAt": "2026-10-23",
+      "characters": 4134
+    },
+    "evidenceTerms": [
+      "納豆",
+      "あんこう鍋"
+    ]
+  },
+  {
+    "id": "p9",
+    "foods": [
+      "いちご",
+      "かんぴょう"
+    ],
+    "source": {
+      "slug": "tochigi",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/tochigi.html",
+      "sha256": "adbd35552bd89979259599a04171670059ccc094fa264dea002c305e0b0cf484",
+      "checkedAt": "2026-10-23",
+      "characters": 5166
+    },
+    "evidenceTerms": [
+      "いちご",
+      "かんぴょう"
+    ]
+  },
+  {
+    "id": "p10",
+    "foods": [
+      "こんにゃく",
+      "おっきりこみ"
+    ],
+    "source": {
+      "slug": "gunma",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/gunma.html",
+      "sha256": "114c8f1769f2920965fff46646822402601f332eb1699a2f9d86ba229be5f6ee",
+      "checkedAt": "2026-10-23",
+      "characters": 4345
+    },
+    "evidenceTerms": [
+      "こんにゃく",
+      "おっきりこみ"
+    ]
+  },
+  {
+    "id": "p11",
+    "foods": [
+      "深谷ねぎ",
+      "みそポテト"
+    ],
+    "source": {
+      "slug": "saitama",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/saitama.html",
+      "sha256": "938b030267f55bdb6e0efdd571addf1c438fb5b8837c6a6c5e6a1d83bc7dd097",
+      "checkedAt": "2026-10-23",
+      "characters": 4671
+    },
+    "evidenceTerms": [
+      "深谷ねぎ",
+      "みそポテト"
+    ]
+  },
+  {
+    "id": "p12",
+    "foods": [
+      "落花生",
+      "なめろう"
+    ],
+    "source": {
+      "slug": "chiba",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/chiba.html",
+      "sha256": "bb8b7f60b132ce7d7a1c241b8370f80a53d91abe8953de83e33335318e2541bf",
+      "checkedAt": "2026-10-23",
+      "characters": 5727
+    },
+    "evidenceTerms": [
+      "落花生",
+      "なめろう"
+    ]
+  },
+  {
+    "id": "p13",
+    "foods": [
+      "深川めし",
+      "くさや"
+    ],
+    "source": {
+      "slug": "tokyo",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/tokyo.html",
+      "sha256": "97af29e5d55ada0d11871cf9b2928bae5a51a42b45cf6986769892cf2a4aa78b",
+      "checkedAt": "2026-10-23",
+      "characters": 4597
+    },
+    "evidenceTerms": [
+      "深川めし",
+      "くさや"
+    ]
+  },
+  {
+    "id": "p14",
+    "foods": [
+      "シューマイ",
+      "けんちん汁"
+    ],
+    "source": {
+      "slug": "kanagawa",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/kanagawa.html",
+      "sha256": "68a57d80ac3af076c3bbdd2185bb11ca5592d07748b818302dfb5f77d145221d",
+      "checkedAt": "2026-10-23",
+      "characters": 4514
+    },
+    "evidenceTerms": [
+      "シューマイ",
+      "けんちん汁"
+    ]
+  },
+  {
+    "id": "p15",
+    "foods": [
+      "コシヒカリ",
+      "笹ずし"
+    ],
+    "source": {
+      "slug": "niigata",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/niigata.html",
+      "sha256": "17e192d148b442da2385ae796845ca506c1c28a3549e62746d93964f538efa84",
+      "checkedAt": "2026-10-23",
+      "characters": 5054
+    },
+    "evidenceTerms": [
+      "コシヒカリ",
+      "笹ずし"
+    ]
+  },
+  {
+    "id": "p16",
+    "foods": [
+      "ます寿司",
+      "昆布締め"
+    ],
+    "source": {
+      "slug": "toyama",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/toyama.html",
+      "sha256": "5d698878f76a4940c7862bc2b2fbfbfe88ad95485784ac50c77adae5f3171c6a",
+      "checkedAt": "2026-10-23",
+      "characters": 4133
+    },
+    "evidenceTerms": [
+      "ます寿司",
+      "昆布締め"
+    ]
+  },
+  {
+    "id": "p17",
+    "foods": [
+      "じぶ煮",
+      "かぶらずし"
+    ],
+    "source": {
+      "slug": "ishikawa",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/ishikawa.html",
+      "sha256": "e45d8653af5d7067a553d679c13587ecada4d282db55340902a758f7a877659d",
+      "checkedAt": "2026-10-23",
+      "characters": 3452
+    },
+    "evidenceTerms": [
+      "じぶ煮",
+      "かぶらずし"
+    ]
+  },
+  {
+    "id": "p18",
+    "foods": [
+      "へしこ",
+      "小鯛のささ漬け"
+    ],
+    "source": {
+      "slug": "fukui",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/fukui.html",
+      "sha256": "6c7169b04b2a0d9d0d330d8f3b3ada845ff570dc3a34494369f3c37444643bcf",
+      "checkedAt": "2026-10-23",
+      "characters": 4398
+    },
+    "evidenceTerms": [
+      "へしこ",
+      "小鯛のささ漬け"
+    ]
+  },
+  {
+    "id": "p19",
+    "foods": [
+      "ほうとう",
+      "ぶどう"
+    ],
+    "source": {
+      "slug": "yamanashi",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/yamanasi.html",
+      "sha256": "78790bd955092ef687894d1213b63d608b31da96064b4df66070c1f6aa9f607e",
+      "checkedAt": "2026-10-23",
+      "characters": 57226
+    },
+    "evidenceTerms": [
+      "ほうとう",
+      "ぶどう"
+    ]
+  },
+  {
+    "id": "p20",
+    "foods": [
+      "おやき",
+      "野沢菜漬"
+    ],
+    "source": {
+      "slug": "nagano",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/nagano.html",
+      "sha256": "638056312b3635fed994dd8ac3b4fe86fc08505263928953fb06ef884726fad7",
+      "checkedAt": "2026-10-23",
+      "characters": 5538
+    },
+    "evidenceTerms": [
+      "おやき",
+      "野沢菜漬"
+    ]
+  },
+  {
+    "id": "p21",
+    "foods": [
+      "朴葉味噌",
+      "鮎"
+    ],
+    "source": {
+      "slug": "gifu",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/gifu.html",
+      "sha256": "509bcfe12895c432a66d4b3ae8b98c3ef507051c60518ec35019fb4985c2626e",
+      "checkedAt": "2026-10-23",
+      "characters": 4003
+    },
+    "evidenceTerms": [
+      "朴葉味噌",
+      "鮎"
+    ]
+  },
+  {
+    "id": "p22",
+    "foods": [
+      "黒はんぺん",
+      "サクラエビ"
+    ],
+    "source": {
+      "slug": "shizuoka",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/shizuoka.html",
+      "sha256": "d8aa7dce5791a3c07d21854f4902644af1627f9a0e6bdc6e6f3938ee142d69ee",
+      "checkedAt": "2026-10-23",
+      "characters": 4476
+    },
+    "evidenceTerms": [
+      "黒はんぺん",
+      "サクラエビ"
+    ]
+  },
+  {
+    "id": "p23",
+    "foods": [
+      "味噌煮込みうどん",
+      "きしめん"
+    ],
+    "source": {
+      "slug": "aichi",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/aichi.html",
+      "sha256": "4c0840a695379b8a1993e1df34ffdc6603317df3b6ef899967dafa9b39dcf04e",
+      "checkedAt": "2026-10-23",
+      "characters": 3922
+    },
+    "evidenceTerms": [
+      "味噌煮込みうどん",
+      "きしめん"
+    ]
+  },
+  {
+    "id": "p24",
+    "foods": [
+      "伊勢うどん",
+      "あさりごはん"
+    ],
+    "source": {
+      "slug": "mie",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/mie.html",
+      "sha256": "41b769185fc76bca681a5cf8d9f669d9d4e573ae8f0c7c84fb8baced3301a58b",
+      "checkedAt": "2026-10-23",
+      "characters": 6495
+    },
+    "evidenceTerms": [
+      "伊勢うどん",
+      "あさりごはん"
+    ]
+  },
+  {
+    "id": "p25",
+    "foods": [
+      "ふなずし",
+      "赤こんにゃく"
+    ],
+    "source": {
+      "slug": "shiga",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/shiga.html",
+      "sha256": "d8ea6b714dbadf39c3931b0fe14e0de0fc049f9482fd92fb3325cccebc55c6f1",
+      "checkedAt": "2026-10-23",
+      "characters": 4026
+    },
+    "evidenceTerms": [
+      "ふなずし",
+      "赤こんにゃく"
+    ]
+  },
+  {
+    "id": "p26",
+    "foods": [
+      "白味噌の雑煮",
+      "万願寺とうがらし"
+    ],
+    "source": {
+      "slug": "kyoto",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/kyoto.html",
+      "sha256": "31daf8caf53f472b7bf6a988067829ef3c488481dd325ef69224cbe51873738a",
+      "checkedAt": "2026-10-23",
+      "characters": 6001
+    },
+    "evidenceTerms": [
+      "白味噌の雑煮",
+      "万願寺とうがらし"
+    ]
+  },
+  {
+    "id": "p27",
+    "foods": [
+      "きつねうどん",
+      "泉州水なす"
+    ],
+    "source": {
+      "slug": "osaka",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/osaka.html",
+      "sha256": "b034dc3d66cbd6289db52382cf3be1e3b6a9ce1bcea93c313e89f86e392e5150",
+      "checkedAt": "2026-10-23",
+      "characters": 4226
+    },
+    "evidenceTerms": [
+      "きつねうどん",
+      "泉州水なす"
+    ]
+  },
+  {
+    "id": "p28",
+    "foods": [
+      "いかなごのくぎ煮",
+      "明石焼"
+    ],
+    "source": {
+      "slug": "hyogo",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/hyogo.html",
+      "sha256": "be71c9f16bd6e571fda0ac82c2e9901cfe14fa98454ea736e083f0c549620c98",
+      "checkedAt": "2026-10-23",
+      "characters": 4515
+    },
+    "evidenceTerms": [
+      "いかなごのくぎ煮",
+      "明石焼"
+    ]
+  },
+  {
+    "id": "p29",
+    "foods": [
+      "柿の葉寿司",
+      "三輪素麺"
+    ],
+    "source": {
+      "slug": "nara",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/nara.html",
+      "sha256": "76f406777a7e8a6e768b2a504c098b18a0e032e5e042713bfebe068ebe22065d",
+      "checkedAt": "2026-10-23",
+      "characters": 3826
+    },
+    "evidenceTerms": [
+      "柿の葉寿司",
+      "三輪素麺"
+    ]
+  },
+  {
+    "id": "p30",
+    "foods": [
+      "南高梅",
+      "めはりずし"
+    ],
+    "source": {
+      "slug": "wakayama",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/wakayama.html",
+      "sha256": "92fa821c86b2b1c8b65f06df6feb963ccf33d99d418fb6c23b562e2c7178a270",
+      "checkedAt": "2026-10-23",
+      "characters": 3823
+    },
+    "evidenceTerms": [
+      "南高梅",
+      "めはりずし"
+    ]
+  },
+  {
+    "id": "p31",
+    "foods": [
+      "二十世紀梨",
+      "あごちくわ"
+    ],
+    "source": {
+      "slug": "tottori",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/tottori.html",
+      "sha256": "8be93cfc6a54bfb309f779909f49fb3a48f43bd5e35fd11b6d075e58f4c8e191",
+      "checkedAt": "2026-10-23",
+      "characters": 3828
+    },
+    "evidenceTerms": [
+      "二十世紀梨",
+      "あごちくわ"
+    ]
+  },
+  {
+    "id": "p32",
+    "foods": [
+      "出雲そば",
+      "シジミ"
+    ],
+    "source": {
+      "slug": "shimane",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/shimane.html",
+      "sha256": "d95b05b1dd36233f80b644e9bdd39490724b3030d5b95a0ad96ee87f5e81bf83",
+      "checkedAt": "2026-10-23",
+      "characters": 4159
+    },
+    "evidenceTerms": [
+      "出雲そば",
+      "シジミ"
+    ]
+  },
+  {
+    "id": "p33",
+    "foods": [
+      "ままかりずし",
+      "まつりずし"
+    ],
+    "source": {
+      "slug": "okayama",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/okayama.html",
+      "sha256": "3652d0c41447eb071593cb141a54957a60dc6ff7c6e6bec794a03d24c650160e",
+      "checkedAt": "2026-10-23",
+      "characters": 4138
+    },
+    "evidenceTerms": [
+      "ままかりずし",
+      "まつりずし"
+    ]
+  },
+  {
+    "id": "p34",
+    "foods": [
+      "かきの土手鍋",
+      "あなご飯"
+    ],
+    "source": {
+      "slug": "hiroshima",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/hiroshima.html",
+      "sha256": "eaa3beb462b4744a5c9e8b99297632f35cd0658d3c1bc375b9b6d629d8442194",
+      "checkedAt": "2026-10-23",
+      "characters": 4361
+    },
+    "evidenceTerms": [
+      "かきの土手鍋",
+      "あなご飯"
+    ]
+  },
+  {
+    "id": "p35",
+    "foods": [
+      "ふぐ",
+      "夏みかん"
+    ],
+    "source": {
+      "slug": "yamaguchi",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/yamaguchi.html",
+      "sha256": "7c54d8a7afd26c8d3d2bd7e5e64bbd465fe1c7c9d761686a8c76cd342aa1068e",
+      "checkedAt": "2026-10-23",
+      "characters": 4150
+    },
+    "evidenceTerms": [
+      "ふぐ",
+      "夏みかん"
+    ]
+  },
+  {
+    "id": "p36",
+    "foods": [
+      "スダチ",
+      "半田そうめん"
+    ],
+    "source": {
+      "slug": "tokushima",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/tokushima.html",
+      "sha256": "1b4e19a3f28da7d4f9fe19e0f3ce3d6e45fa71ef4784815a924e86c5077e684c",
+      "checkedAt": "2026-10-23",
+      "characters": 4288
+    },
+    "evidenceTerms": [
+      "スダチ",
+      "半田そうめん"
+    ]
+  },
+  {
+    "id": "p37",
+    "foods": [
+      "うどん",
+      "しょうゆ豆"
+    ],
+    "source": {
+      "slug": "kagawa",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/kagawa.html",
+      "sha256": "f042923c093f4221132c418f60da10e7ac990917d1648eb6d005c1223f4e0da7",
+      "checkedAt": "2026-10-23",
+      "characters": 4299
+    },
+    "evidenceTerms": [
+      "うどん",
+      "しょうゆ豆"
+    ]
+  },
+  {
+    "id": "p38",
+    "foods": [
+      "みかん",
+      "鯛めし"
+    ],
+    "source": {
+      "slug": "ehime",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/ehime.html",
+      "sha256": "dab2b8e3029525eddf1b4093aad4e3c304d27026425c99d32aeda71dc1467bb4",
+      "checkedAt": "2026-10-23",
+      "characters": 3954
+    },
+    "evidenceTerms": [
+      "みかん",
+      "鯛めし"
+    ]
+  },
+  {
+    "id": "p39",
+    "foods": [
+      "かつおのたたき",
+      "皿鉢"
+    ],
+    "source": {
+      "slug": "kochi",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/kochi.html",
+      "sha256": "67c6575a77af0d695387a77fbf4b3f2ebe11096a84857ba563182194dafc1c52",
+      "checkedAt": "2026-10-23",
+      "characters": 3768
+    },
+    "evidenceTerms": [
+      "かつおのたたき",
+      "皿鉢"
+    ]
+  },
+  {
+    "id": "p40",
+    "foods": [
+      "若鶏の水炊き",
+      "おきゅうと"
+    ],
+    "source": {
+      "slug": "fukuoka",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/fukuoka.html",
+      "sha256": "ec39cc826886ac26156c8c2285ff2f295b79ad5cf738e9ab2b94366dbf835af1",
+      "checkedAt": "2026-10-23",
+      "characters": 4493
+    },
+    "evidenceTerms": [
+      "若鶏の水炊き",
+      "おきゅうと"
+    ]
+  },
+  {
+    "id": "p41",
+    "foods": [
+      "海苔",
+      "むつごろう"
+    ],
+    "source": {
+      "slug": "saga",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/saga.html",
+      "sha256": "6dc6dd77a6ca8a6f7b378cf5cbe38ea8238d004e9e5601505c7a84b91763f58c",
+      "checkedAt": "2026-10-23",
+      "characters": 4432
+    },
+    "evidenceTerms": [
+      "海苔",
+      "むつごろう"
+    ]
+  },
+  {
+    "id": "p42",
+    "foods": [
+      "卓袱料理",
+      "かんころ餅"
+    ],
+    "source": {
+      "slug": "nagasaki",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/nagasaki.html",
+      "sha256": "d859328f36feafc128fca7d1f2972a6b100fb4edf5645506d2f8297c8ee270f1",
+      "checkedAt": "2026-10-23",
+      "characters": 5336
+    },
+    "evidenceTerms": [
+      "卓袱料理",
+      "かんころ餅"
+    ]
+  },
+  {
+    "id": "p43",
+    "foods": [
+      "からし蓮根",
+      "馬刺し"
+    ],
+    "source": {
+      "slug": "kumamoto",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/kumamoto.html",
+      "sha256": "cf7f26cce4ab0c4fc430db0e43d49a7a0df470d8faa9baf8ea2d0a85ac5d7080",
+      "checkedAt": "2026-10-23",
+      "characters": 5930
+    },
+    "evidenceTerms": [
+      "からし蓮根",
+      "馬刺し"
+    ]
+  },
+  {
+    "id": "p44",
+    "foods": [
+      "とり天",
+      "やせうま"
+    ],
+    "source": {
+      "slug": "oita",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/oita.html",
+      "sha256": "5b06ae21bbe730d9b340285dd98b04bb88bea7d0da36e685c577aebb72795f7a",
+      "checkedAt": "2026-10-23",
+      "characters": 4310
+    },
+    "evidenceTerms": [
+      "とり天",
+      "やせうま"
+    ]
+  },
+  {
+    "id": "p45",
+    "foods": [
+      "チキン南蛮",
+      "冷や汁"
+    ],
+    "source": {
+      "slug": "miyazaki",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/miyazaki.html",
+      "sha256": "803ce2443d80d686a61440a856681bcfe5e2dc00ff7c37cce264a82c71adfd48",
+      "checkedAt": "2026-10-23",
+      "characters": 5267
+    },
+    "evidenceTerms": [
+      "チキン南蛮",
+      "冷や汁"
+    ]
+  },
+  {
+    "id": "p46",
+    "foods": [
+      "さつま揚げ",
+      "黒豚"
+    ],
+    "source": {
+      "slug": "kagoshima",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/kagoshima.html",
+      "sha256": "79a1ad795ef77185c87cd5ac5013df2b742c523a48e0f79800830e8b890dbf80",
+      "checkedAt": "2026-10-23",
+      "characters": 4121
+    },
+    "evidenceTerms": [
+      "さつま揚げ",
+      "黒豚"
+    ]
+  },
+  {
+    "id": "p47",
+    "foods": [
+      "ラフテー",
+      "ジーマーミ豆腐"
+    ],
+    "source": {
+      "slug": "okinawa",
+      "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/okinawa.html",
+      "sha256": "098493fc720a9732696ad48b9f0d5694e104ea33b38989e2844fc5b0e4799373",
+      "checkedAt": "2026-10-23",
+      "characters": 4671
+    },
+    "evidenceTerms": [
+      "ラフテー",
+      "ジーマーミ豆腐"
+    ]
+  }
+]

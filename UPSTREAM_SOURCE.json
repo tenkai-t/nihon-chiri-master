@@ -1,0 +1,920 @@
+{
+  "game": "日本地理マスター",
+  "public_version": 15,
+  "source_commit": "b7a01ab65fe2a9fa852514e3a6a3ed63da7335f6",
+  "public_url": "https://nihon-chiri-master.prime-otter-8314.chatgpt.site",
+  "verified_deployment": "appgdep_6adbf64adbf88191ad01a3d6414b0ae2",
+  "runtime_changes": false,
+  "source_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "0039e77d96502be925cfd706b1adc93c6280671a6ca26287c7e950f12aac9de3",
+      "bytes": 138
+    },
+    {
+      "path": ".openai/hosting.json",
+      "sha256": "8671e5109d3ad7fda4306e37c7d3e4167e8c73bf18c4f9743019e4b00375210b",
+      "bytes": 77
+    },
+    {
+      "path": "CHANGELOG-icon-atlas-v7.md",
+      "sha256": "f760435adbaea572e9860fa2bb87f7ced5398f7ffcdef8b8bebf95585c710e4c",
+      "bytes": 1914
+    },
+    {
+      "path": "CHANGELOG-learning-v8.md",
+      "sha256": "fc8330ad796ed18533fe012edcf361bf80f77733c98ac32a64a17db08abaa42f",
+      "bytes": 3858
+    },
+    {
+      "path": "CHANGELOG-terrain-20261017.md",
+      "sha256": "315fc65c835705c5b7a7744f5ddfa2625ba14a84391bac3212c7c66496ae55b7",
+      "bytes": 3237
+    },
+    {
+      "path": "README.md",
+      "sha256": "da64527365fb25e9e0e5a2a0c6467c8ac16d019931596d0a609b50c4509d6900",
+      "bytes": 10591
+    },
+    {
+      "path": "db/schema.ts",
+      "sha256": "ea57260e11d940cff12691a7d7684a85edb010809173f86952df4b0f307ac74d",
+      "bytes": 1529
+    },
+    {
+      "path": "dist/app.js",
+      "sha256": "bdfa1e29a1e938bdeb39267e0c21e372513e7e0c9b2f6dd989c8def07b9986a9",
+      "bytes": 107507
+    },
+    {
+      "path": "dist/apple-touch-icon.png",
+      "sha256": "02def36c7dd0ba229f239611385d9b113b019504f30e1ec71c8a99878689524f",
+      "bytes": 13878
+    },
+    {
+      "path": "dist/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/assets/hints.json",
+      "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3",
+      "bytes": 2183801
+    },
+    {
+      "path": "dist/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/bootstrap.js",
+      "sha256": "bd95247fdcf82768742b41ea184eb26aae0d0084df25e5f4f178c9eda5e3165f",
+      "bytes": 271
+    },
+    {
+      "path": "dist/favicon.ico",
+      "sha256": "88f7a76a50fdaebd364bb0e958f62fac9caefee671867ba2311a0201ac781e99",
+      "bytes": 5133
+    },
+    {
+      "path": "dist/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/icon-192.png",
+      "sha256": "51b4d4ab51b0bca32e6cf74aeda2d48872f3ae17c7ebbdb27fce9f2bb4b46355",
+      "bytes": 14835
+    },
+    {
+      "path": "dist/icon-512.png",
+      "sha256": "ff25ac82cd306e1c1ee0dc5779e37ee115d4412436c0a699f188a424c16d72d9",
+      "bytes": 48238
+    },
+    {
+      "path": "dist/icon.svg",
+      "sha256": "98f06d923171f7d6a4c358fef91e72acb21163573df1ab39bde348d49c815b8f",
+      "bytes": 22905
+    },
+    {
+      "path": "dist/icons/atlas-v7/apple-touch-icon.png",
+      "sha256": "02def36c7dd0ba229f239611385d9b113b019504f30e1ec71c8a99878689524f",
+      "bytes": 13878
+    },
+    {
+      "path": "dist/icons/atlas-v7/favicon-16.png",
+      "sha256": "e45ad884771965b76187728baaf5af0b314480d725e333fcb6b95a4f69a473fb",
+      "bytes": 471
+    },
+    {
+      "path": "dist/icons/atlas-v7/favicon-32.png",
+      "sha256": "8b8d6359fdf705bec2280c9d368f12f7a46dfbda7cb8f5564224517fe3a79e8f",
+      "bytes": 949
+    },
+    {
+      "path": "dist/icons/atlas-v7/favicon.ico",
+      "sha256": "88f7a76a50fdaebd364bb0e958f62fac9caefee671867ba2311a0201ac781e99",
+      "bytes": 5133
+    },
+    {
+      "path": "dist/icons/atlas-v7/favicon.svg",
+      "sha256": "97012ee44b42c50403c34b3c6f44719641d615a9f13f1c67b665328afe4e8aad",
+      "bytes": 5089
+    },
+    {
+      "path": "dist/icons/atlas-v7/icon-192.png",
+      "sha256": "51b4d4ab51b0bca32e6cf74aeda2d48872f3ae17c7ebbdb27fce9f2bb4b46355",
+      "bytes": 14835
+    },
+    {
+      "path": "dist/icons/atlas-v7/icon-512.png",
+      "sha256": "ff25ac82cd306e1c1ee0dc5779e37ee115d4412436c0a699f188a424c16d72d9",
+      "bytes": 48238
+    },
+    {
+      "path": "dist/icons/atlas-v7/maskable-192.png",
+      "sha256": "c07207d548183cba3d5ee3811aeb0980c68ac5577145e9f6d28b8a9801e718e7",
+      "bytes": 13584
+    },
+    {
+      "path": "dist/icons/atlas-v7/maskable-512.png",
+      "sha256": "ae99f685ae86d09dd5356a55cc0c32c824d437713fcd790fe23b85e80770b893",
+      "bytes": 44531
+    },
+    {
+      "path": "dist/icons/atlas-v7/maskable.svg",
+      "sha256": "e69cdde9e3bec7c06ab6456f2fd29608b5179fe251148fca50401c955f39436b",
+      "bytes": 22918
+    },
+    {
+      "path": "dist/icons/atlas-v7/normal.svg",
+      "sha256": "98f06d923171f7d6a4c358fef91e72acb21163573df1ab39bde348d49c815b8f",
+      "bytes": 22905
+    },
+    {
+      "path": "dist/icons/atlas-v7/preview.png",
+      "sha256": "bd225b313fc3bbf6bb8a8a4712120b825264f6987a2fd3ba6289530c90b26c6c",
+      "bytes": 71374
+    },
+    {
+      "path": "dist/icons/atlas-v7/provenance.json",
+      "sha256": "1f554a27a3a57425016283691a61643544272865f50b43a74f2a02360f330a6c",
+      "bytes": 530
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "2c503c125a710bff8c39aec5adbc5d664f5ea2d3403a6f4f3d54f82be2f0850d",
+      "bytes": 2051
+    },
+    {
+      "path": "dist/licenses/KanjiVG-CC-BY-SA-3.0.txt",
+      "sha256": "d255e07978fd16ddfec38bc59dc9d857b885dd44ddbf4e79baf207d30746bdcc",
+      "bytes": 20595
+    },
+    {
+      "path": "dist/manifest.json",
+      "sha256": "50ce833e3d39f3b8c04c508d697f237c4fe606157b5bdaa0eb6ddee3be0576b7",
+      "bytes": 733
+    },
+    {
+      "path": "dist/online.js",
+      "sha256": "5e52e32b947af64633d1df9e8541799071ae4019244c5103f11b0c9d7e1e7b94",
+      "bytes": 13046
+    },
+    {
+      "path": "dist/releases/classroom-20261022/app.js",
+      "sha256": "e629f0c23375da5811a42a9b13b52cb2fa0228286ce5827069bc8c2150f984af",
+      "bytes": 99384
+    },
+    {
+      "path": "dist/releases/classroom-20261022/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/classroom-20261022/assets/hints.json",
+      "sha256": "52809999dac7d5bed168ead5fbcdf6109112c4daab8f2fde4f599161ecffb8d1",
+      "bytes": 269561
+    },
+    {
+      "path": "dist/releases/classroom-20261022/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/classroom-20261022/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/classroom-20261022/checksums.json",
+      "sha256": "d824f5e0204bbe06b75d360d2fd6d8c88d29e5126ccd71391e0aeb4cf0aa2093",
+      "bytes": 631
+    },
+    {
+      "path": "dist/releases/classroom-20261022/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/classroom-20261022/style.css",
+      "sha256": "e50e88fad259ef91c1c6cd62498729051768f887676772288d0dd8864880576d",
+      "bytes": 20046
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/app.js",
+      "sha256": "c3e111b64efa69ff0e366cf9305de244d8544dc5d06d4d696a7fdb7426598f75",
+      "bytes": 107500
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/assets/hints.json",
+      "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3",
+      "bytes": 2183801
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/checksums.json",
+      "sha256": "608c9ae1e889489bd3d121df43f54e326da61c533b1950e683990fdd13c289af",
+      "bytes": 799
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/online.js",
+      "sha256": "5e52e32b947af64633d1df9e8541799071ae4019244c5103f11b0c9d7e1e7b94",
+      "bytes": 13046
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/security.js",
+      "sha256": "0a88b891a06e88dc2b47dd35e22106127e52806c716e599f33126b234274f991",
+      "bytes": 37541
+    },
+    {
+      "path": "dist/releases/classroom-ux-20261024/style.css",
+      "sha256": "e2065917108b29bcdd0c6723d4d6372581e14d73a0ef55ab4650a97ae273ee5c",
+      "bytes": 22116
+    },
+    {
+      "path": "dist/releases/common-20261023-final/app.js",
+      "sha256": "5c8e4d76a3303952f81a123dab8d165373b675b98d255ccc9316e10f12bd43ff",
+      "bytes": 107439
+    },
+    {
+      "path": "dist/releases/common-20261023-final/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/common-20261023-final/assets/hints.json",
+      "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3",
+      "bytes": 2183801
+    },
+    {
+      "path": "dist/releases/common-20261023-final/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/common-20261023-final/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/common-20261023-final/checksums.json",
+      "sha256": "2b533ca863446d478785f0d32efae7b19310bece4e5a7ba3ae8c9b1236ea67ec",
+      "bytes": 799
+    },
+    {
+      "path": "dist/releases/common-20261023-final/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/common-20261023-final/online.js",
+      "sha256": "845744a6512a87a057225642298df7ea9a412da8f72d1a892e721496b525b28c",
+      "bytes": 7319
+    },
+    {
+      "path": "dist/releases/common-20261023-final/security.js",
+      "sha256": "2e71518cff665e9f4058f8173c35f3430736955a48be2afa092a81d44b3c4b1b",
+      "bytes": 36810
+    },
+    {
+      "path": "dist/releases/common-20261023-final/style.css",
+      "sha256": "e2cc64d5c852ec43ce58bf3d4fb5bec8b7342ce2dd50df3a839fec86542a96ef",
+      "bytes": 21239
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/app.js",
+      "sha256": "1f82ed357c26550e4fe45e8ae055e55cf2a3cb894f2e3868bb897960215aef80",
+      "bytes": 99039
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/assets/hints.json",
+      "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3",
+      "bytes": 2183801
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/checksums.json",
+      "sha256": "026233ae744657252e9575a1aabef738549e16fda9d52e3b84e5fd081a3e4c73",
+      "bytes": 716
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/security.js",
+      "sha256": "234145974a6104582a3c8c2ed8b0c4f002779310648a776162d9b09d5761d9e4",
+      "bytes": 31163
+    },
+    {
+      "path": "dist/releases/hints-pin-20261023/style.css",
+      "sha256": "6722524a6a68ef90251f52d50c53512378684349d0345afbd40dfaeb14907d49",
+      "bytes": 21013
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/app.js",
+      "sha256": "bdfa1e29a1e938bdeb39267e0c21e372513e7e0c9b2f6dd989c8def07b9986a9",
+      "bytes": 107507
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/assets/hints.json",
+      "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3",
+      "bytes": 2183801
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/checksums.json",
+      "sha256": "bc362fc1129f257782ab03722959558028690af366c0ef2a668581cdb6a22d83",
+      "bytes": 799
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/online.js",
+      "sha256": "5e52e32b947af64633d1df9e8541799071ae4019244c5103f11b0c9d7e1e7b94",
+      "bytes": 13046
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/security.js",
+      "sha256": "0a88b891a06e88dc2b47dd35e22106127e52806c716e599f33126b234274f991",
+      "bytes": 37541
+    },
+    {
+      "path": "dist/releases/inline-hints-20261024/style.css",
+      "sha256": "b05ea130e1f8d35217dc6646bc6d8e2e542470250b7e6a7a8b0314fb78d25f0b",
+      "bytes": 21771
+    },
+    {
+      "path": "dist/releases/learning-20261018/app.js",
+      "sha256": "dc5a67cdcac5b4dfe0995fefb4b9147bccaa151cfe7624a2587e267bdfc597be",
+      "bytes": 91153
+    },
+    {
+      "path": "dist/releases/learning-20261018/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/learning-20261018/assets/hints.json",
+      "sha256": "52809999dac7d5bed168ead5fbcdf6109112c4daab8f2fde4f599161ecffb8d1",
+      "bytes": 269561
+    },
+    {
+      "path": "dist/releases/learning-20261018/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/learning-20261018/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/learning-20261018/checksums.json",
+      "sha256": "1cb9ce36090db8911b398a1bf7585d669697a31c428d5a63d049cd6930e1201c",
+      "bytes": 631
+    },
+    {
+      "path": "dist/releases/learning-20261018/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/learning-20261018/style.css",
+      "sha256": "9b97032652d843971014b300a7c48fd53033b1f074e278214df6a54b4a4b8e7a",
+      "bytes": 14418
+    },
+    {
+      "path": "dist/releases/protected-20261023/app.js",
+      "sha256": "c6d1cecdf77c77340dd8873d70ae60cfcb238a68457e29fe4bf8d41876688eb9",
+      "bytes": 100048
+    },
+    {
+      "path": "dist/releases/protected-20261023/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/protected-20261023/assets/hints.json",
+      "sha256": "13ab47192cbd8bba32765e1a4af56861b1051f59b9c5574d24bf27d55ea2f321",
+      "bytes": 2104129
+    },
+    {
+      "path": "dist/releases/protected-20261023/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/protected-20261023/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/protected-20261023/checksums.json",
+      "sha256": "9b5c6a443580ea0b8ee1242e63fc192e05cd054291d78c70fbddd607b14b5875",
+      "bytes": 716
+    },
+    {
+      "path": "dist/releases/protected-20261023/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/protected-20261023/security.js",
+      "sha256": "d1a422c54a68a0a76b0855a9844c8c2a74cddfe0fdbf7522e9f013e13793a6cb",
+      "bytes": 29709
+    },
+    {
+      "path": "dist/releases/protected-20261023/style.css",
+      "sha256": "2b850ddef49cd50bdd0a3132e0921c195d37beb856bb601e022051e587b7ca23",
+      "bytes": 20503
+    },
+    {
+      "path": "dist/releases/terrain-20261017/app.js",
+      "sha256": "d63d5caad3e08f3d85eeccfaf5dc5bdf565289de2ac6d6c0335e904de19fc986",
+      "bytes": 84598
+    },
+    {
+      "path": "dist/releases/terrain-20261017/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/terrain-20261017/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/terrain-20261017/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/terrain-20261017/checksums.json",
+      "sha256": "970f5e569ce58d2ab3d998976b5166af891a6dca2dc96ffdc7a33b7066775f15",
+      "bytes": 540
+    },
+    {
+      "path": "dist/releases/terrain-20261017/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/terrain-20261017/style.css",
+      "sha256": "855141b17f83eba20ef6a4623a4061c41171541aacc3a247f85683fe9b51af51",
+      "bytes": 13812
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/app.js",
+      "sha256": "e22ceac2da4a90ce3030562bb50e70a84b6d3d0e5e3f4656609d98105b357b0b",
+      "bytes": 104094
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/assets/handwriting.json",
+      "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15",
+      "bytes": 438295
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/assets/hints.json",
+      "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3",
+      "bytes": 2183801
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/assets/japan.geojson",
+      "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae",
+      "bytes": 235988
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/assets/questions.json",
+      "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041",
+      "bytes": 407803
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/checksums.json",
+      "sha256": "3993d09d2164c61a6019b2828867490d9035a83c0711c9ab9b12c90fa1d06ee7",
+      "bytes": 716
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/handwriting.js",
+      "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27",
+      "bytes": 2274
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/security.js",
+      "sha256": "8c3c73766d92514c8cc37a929c87c7c081d2bc1f8cd998870d4f95a020c63cc6",
+      "bytes": 31366
+    },
+    {
+      "path": "dist/releases/test-rate-20261023/style.css",
+      "sha256": "6722524a6a68ef90251f52d50c53512378684349d0345afbd40dfaeb14907d49",
+      "bytes": 21013
+    },
+    {
+      "path": "dist/repair.html",
+      "sha256": "69d9041ac79ebc9527d0b6e7a8dfc28018447d5c7ff48a8b0050d9d717ccc2db",
+      "bytes": 1461
+    },
+    {
+      "path": "dist/security.js",
+      "sha256": "0a88b891a06e88dc2b47dd35e22106127e52806c716e599f33126b234274f991",
+      "bytes": 37541
+    },
+    {
+      "path": "dist/style.css",
+      "sha256": "b05ea130e1f8d35217dc6646bc6d8e2e542470250b7e6a7a8b0314fb78d25f0b",
+      "bytes": 21771
+    },
+    {
+      "path": "dist/sw.js",
+      "sha256": "b8c217567e7c1fca55d3f37b08c3d204aebd76aef25af751f235e3c0f9cfd321",
+      "bytes": 5256
+    },
+    {
+      "path": "drizzle.config.ts",
+      "sha256": "956affaeae82085f63b73aa1efa5c3dd322e6cc4141b85848bf14387669b7811",
+      "bytes": 75
+    },
+    {
+      "path": "drizzle/0000_eager_onslaught.sql",
+      "sha256": "88bf428e1ea913861fb9b209217ac858ecebb6134ad550caf3a754b5bdbae1d7",
+      "bytes": 1185
+    },
+    {
+      "path": "drizzle/0001_harsh_leader.sql",
+      "sha256": "434563727f681f059b607e15c8bdc3a0188dc2d31bf5335deb4e4769a9887fab",
+      "bytes": 240
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "sha256": "3eb5123655f986481c9ba315e7f9ed14c274145a036748c0dc782dacc94152cf",
+      "bytes": 6031
+    },
+    {
+      "path": "drizzle/meta/0001_snapshot.json",
+      "sha256": "8b97cda8c97e8d1c892c4151f1ff9276eb5078737eb23157e0b936f523876dc6",
+      "bytes": 7141
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "sha256": "442596e32599222c7cc49fc77565ad0188aba307794705772d979a03bd51527c",
+      "bytes": 345
+    },
+    {
+      "path": "make_data.py",
+      "sha256": "2bc885320a6caa23bfdd2dd1f2dcc5367046c278f85fefa3dfa73beaa459cbe3",
+      "bytes": 10335
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "717521e6c826a1f1a4071d5e10d5021612fda690289597fbbdc96f982329a8b3",
+      "bytes": 68541
+    },
+    {
+      "path": "package.json",
+      "sha256": "da3bf918ecb29faeabedf082cbbe94b1f0037dc6284f6da87bde02549b0cda67",
+      "bytes": 853
+    },
+    {
+      "path": "scripts/add-terrain.py",
+      "sha256": "4b42752fdc6561ce7ff6d1a92fe0e50dd708b7964d70ea81f69e0ed04b0d863d",
+      "bytes": 1224
+    },
+    {
+      "path": "scripts/build-editorial-hints.py",
+      "sha256": "f9ddd15f97154ed17471205843ff1c64e4aafe02eb5956d52b82f9694b627062",
+      "bytes": 13986
+    },
+    {
+      "path": "scripts/build-handwriting.py",
+      "sha256": "8b386e6e1bf79c7c93cf2a35f50fc8d9e5e6dd980d370a29da760f383674a197",
+      "bytes": 2999
+    },
+    {
+      "path": "scripts/build-hints.py",
+      "sha256": "b6bf0c8eeb49335537979809490bd450d19df1e380516a266b9ec012fe0f1883",
+      "bytes": 7760
+    },
+    {
+      "path": "scripts/build-icons.py",
+      "sha256": "2fa398d8986f9e83e0ed2788f152c6fbc2adfdae2d53d24848117e5ac1a02e94",
+      "bytes": 4082
+    },
+    {
+      "path": "scripts/build-release.py",
+      "sha256": "2d06996c7bd3be8986ff0fccfa7d7c1f10a9f4606911c0a972bb613c30ee88d1",
+      "bytes": 1075
+    },
+    {
+      "path": "scripts/build-worker.py",
+      "sha256": "3d62ec57e63a35d46cd5e338c06c67f6f06867dde2c84e47efe44ccd981b92e0",
+      "bytes": 2301
+    },
+    {
+      "path": "scripts/hydro-geometry.py",
+      "sha256": "1500dd9690a42416efb5e94d3a142a849b19478b42f89c9d0dbadc8a975b60ac",
+      "bytes": 2775
+    },
+    {
+      "path": "scripts/preview.mjs",
+      "sha256": "b5a5a31becdc3fb3d247e8f971130b1578497ac7634e55a47afbb580a9adbfcc",
+      "bytes": 856
+    },
+    {
+      "path": "scripts/reference/capital-hint-points.json",
+      "sha256": "6db8872d1a02b31a364bc56bcfb0b638bf9f08babc65616ad4760880d90facf3",
+      "bytes": 15886
+    },
+    {
+      "path": "scripts/reference/expansion-additions.json",
+      "sha256": "b73ee3f5325749650de37e89b59c703112c83263d219eb828759b006cbd4ed98",
+      "bytes": 482823
+    },
+    {
+      "path": "scripts/reference/expansion-evidence.json",
+      "sha256": "bf058a4138567d0e433707323ecfa3802e9becdfb23974f73d9e132d578e6877",
+      "bytes": 50879
+    },
+    {
+      "path": "scripts/reference/mountain-points.json",
+      "sha256": "c63dcdf12031e6b39d3560422249ef70c5ecad2d21d91484e6d04cf8a30f8094",
+      "bytes": 1578
+    },
+    {
+      "path": "scripts/reference/pre-expansion-contract.json",
+      "sha256": "d80314bfad9ae7a6066a8c517815b295714e1b951e7b14dcd98972ee80ebd149",
+      "bytes": 23565
+    },
+    {
+      "path": "scripts/reference/prefecture-editorial-facts.json",
+      "sha256": "3a2e7134362ad9fa1db70466234b8af4578639b59e84b93efc1ff52019115801",
+      "bytes": 21195
+    },
+    {
+      "path": "scripts/reference/prefecture-hint-sources.json",
+      "sha256": "4f7724b64717d77de7ebf84046f8bd8e8ec3b527a48710e5ad4ca9e47f3e181c",
+      "bytes": 12217
+    },
+    {
+      "path": "scripts/stage2-data.py",
+      "sha256": "fad1b417c32ab7f3400981fab23bb4f1bfc1a72b5293e31a7fbadd7cf1817895",
+      "bytes": 10331
+    },
+    {
+      "path": "scripts/verify-geometry.py",
+      "sha256": "6099f014f362764d04e1d980c8a4db9adb297fc3881f46445968cde9a0deb18f",
+      "bytes": 2046
+    },
+    {
+      "path": "server/db-local.mjs",
+      "sha256": "f1f661631d2e72f580ca9fe72d9f12cbf298de0ce2054447199b83ec5be1288f",
+      "bytes": 627
+    },
+    {
+      "path": "server/handler.mjs",
+      "sha256": "5af6477e1f30153cc00b8cabd4e64f5d782a64a6036fa4cecfd382cfbeaba1d7",
+      "bytes": 3894
+    },
+    {
+      "path": "server/ranking-legacy.mjs",
+      "sha256": "d9580dcee475e3dc5af430047ce30f54491432550bf272e7b031ae3192988c7a",
+      "bytes": 8722
+    },
+    {
+      "path": "server/ranking.mjs",
+      "sha256": "091f3c31287fbd696c93e36aba430d4a5e5991b6bb61561483756c5a4c9434fb",
+      "bytes": 9197
+    },
+    {
+      "path": "tests/browser/hint-viewport.html",
+      "sha256": "980423cc86a00d43129b485369e72f07c6feb96911416d142290f29d2b7a1de6",
+      "bytes": 965
+    },
+    {
+      "path": "tests/classroom.cjs",
+      "sha256": "847d0b395d71c3fd67d7e3e48c240e8d86aada433d9259ec145498792fdf5f12",
+      "bytes": 5424
+    },
+    {
+      "path": "tests/common-security.cjs",
+      "sha256": "c01da7fb817a872d88522f3f421238299dd8e5443f4be00954095869a18d5914",
+      "bytes": 9878
+    },
+    {
+      "path": "tests/editorial-hints.cjs",
+      "sha256": "82bc821323fa68a3f744ad7bded411741f6adc96399898f8173936365ca97680",
+      "bytes": 2102
+    },
+    {
+      "path": "tests/expansion.cjs",
+      "sha256": "b3cc2244148b56e3deee0401567a7d1acd3e9f83c4f80a77d1f5e99c8e1233fa",
+      "bytes": 8358
+    },
+    {
+      "path": "tests/handwriting.cjs",
+      "sha256": "cefb5d361cf57a473afce0a89408ded474a8ac9c473441b88707b8ad113a9ae2",
+      "bytes": 732
+    },
+    {
+      "path": "tests/hint-layout.cjs",
+      "sha256": "2bfa3e3ec2c6bb52152f9ce0fad9ed91c4dbbe836d2210e599a4e4da3c37386a",
+      "bytes": 5532
+    },
+    {
+      "path": "tests/icons.py",
+      "sha256": "d30e3ef154bfff0dcad279a1ace2fb8d444a130790b879e31b565630108bf650",
+      "bytes": 2252
+    },
+    {
+      "path": "tests/learning.cjs",
+      "sha256": "6962ad39d2f933d2f3b936d6ee8c545877af14ab6939e675e02c036f5885129c",
+      "bytes": 9810
+    },
+    {
+      "path": "tests/official-ui.mjs",
+      "sha256": "c82abfb0a50d33359d6b8de0868dc2b9e237f0d6bd34aaa9bc66cd849b1b7a7c",
+      "bytes": 8913
+    },
+    {
+      "path": "tests/ranking-common.mjs",
+      "sha256": "7ee403294819a56b477641dd68042e4edcf5931cfa871d3976393c517ce60853",
+      "bytes": 7977
+    },
+    {
+      "path": "tests/reset-once.cjs",
+      "sha256": "400a912b8fb27ba027a47265f3da429c62926ac3470b884981d8675e7cde971e",
+      "bytes": 3658
+    },
+    {
+      "path": "tests/security-pin.cjs",
+      "sha256": "cfd08685ff8774d6a773b38a27b22ec050fbbc7842421b92ea32b1287a597b92",
+      "bytes": 5252
+    },
+    {
+      "path": "tests/security.cjs",
+      "sha256": "451c6d6a485cdc96391d99b8a41c38405c9aeaaacbc854c1199d48507ac43be1",
+      "bytes": 104
+    },
+    {
+      "path": "tests/stage1.cjs",
+      "sha256": "656921f98e1b0e62d4cc349b669643bb0cad8e9d94f7ad551852ce27428213b0",
+      "bytes": 2995
+    },
+    {
+      "path": "tests/stage2.cjs",
+      "sha256": "299e466d20f62863fe4544b9087d33223f5b88d6ee02ff0487b431cb254f6269",
+      "bytes": 4832
+    },
+    {
+      "path": "tests/stage3.cjs",
+      "sha256": "6d6de1bad5d491f19645b4ec35bc471640a84980a8caefb6249bb1ae5ec6aad6",
+      "bytes": 6056
+    },
+    {
+      "path": "tests/sw.cjs",
+      "sha256": "02e42fe4b559ca9ead432b6b72fa11e2f1f073862e33a42b333540edcd25ea16",
+      "bytes": 9734
+    },
+    {
+      "path": "tests/test-rates.cjs",
+      "sha256": "58d05106cc72b80e1f7b6bfea4a05fc1bcec9b47c6fbcfd7573f34846382a37d",
+      "bytes": 5756
+    },
+    {
+      "path": "tests/ux.cjs",
+      "sha256": "b4ae5e52dbee4db92af84ce7234a5e30cf5a49c1f07ea0bc5076be89dcfa33df",
+      "bytes": 5605
+    },
+    {
+      "path": "tests/worker-common.mjs",
+      "sha256": "5394780d1ebe95525e1a63dd724a9a004ef649fb053919167d708f540c92d902",
+      "bytes": 1435
+    }
+  ],
+  "omitted_nonruntime_validation_files": [
+    "docs/validation/classroom-20261022.md",
+    "docs/validation/classroom-quiz.jpg",
+    "docs/validation/classroom-ux-20261024.md",
+    "docs/validation/classroom-ux-v14.jpg",
+    "docs/validation/common-20261023.md",
+    "docs/validation/common-v13.jpg",
+    "docs/validation/hints-mobile-after.jpg",
+    "docs/validation/hints-mobile-before.jpg",
+    "docs/validation/hints-mobile-metrics.json",
+    "docs/validation/hints-pin-20261023.md",
+    "docs/validation/hints-pin-v11.jpg",
+    "docs/validation/hints-v14-artifact-check.json",
+    "docs/validation/inline-hints-20261024.md",
+    "docs/validation/protected-20261023.md",
+    "docs/validation/protected-hints.jpg",
+    "docs/validation/test-rate-20261023.md",
+    "docs/validation/test-rate-v12.jpg"
+  ],
+  "migration_adapter_files": [
+    "package.json",
+    "README.md",
+    "AGENTS.md",
+    "GAME_SPEC.md",
+    "MIGRATION.md",
+    "MIGRATION_REPORT.md",
+    ".gitignore",
+    "scripts/build-local.mjs",
+    "scripts/dev-local.mjs",
+    "tests/migration-local.mjs",
+    "docs/UPSTREAM_README.md",
+    "scripts/local-http.mjs",
+    "tests/learning.cjs",
+    "tests/classroom.cjs",
+    "tests/editorial-hints.cjs",
+    "tests/icons.py",
+    "tests/upstream-fixtures.cjs",
+    "tests/fixtures/upstream-sha256.json",
+    "tests/fixtures/learning-baseline-app.js",
+    "tests/fixtures/manifest-v15.json",
+    "tests/official-ui.mjs"
+  ],
+  "migration_adapter_notes": [
+    "Application browser/server runtime and teaching data are unchanged.",
+    "Build adapter selects Python and enforces UTF-8 for Windows.",
+    "Local development adapter uses the incoming localhost Host/Origin instead of a hard-coded Work hostname.",
+    "No production credentials or database rows are included.",
+    "History-dependent tests now use equivalent pinned public-code fixtures and historical SHA-256 baselines, without requiring the private Git history.",
+    "Online UI tests wait for the actual asynchronous board state instead of a fixed 20ms delay, for portable Node environments."
+  ]
+}

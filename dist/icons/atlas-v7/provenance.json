@@ -1,0 +1,13 @@
+{
+  "source": "https://www.gsi.go.jp/kankyochiri/gm_jpn.html",
+  "conversion": "https://github.com/dataofjapan/land",
+  "input": "assets/japan.geojson",
+  "processing": "Prefecture polygons unioned; four main islands selected by area; coast simplified; longitude scaled by cos(36 degrees), north up; no island rearrangement. Small offshore islands omitted for clarity.",
+  "colors": {
+    "background": "#103f39",
+    "land": "#f4efdf",
+    "accent": "#b89a60"
+  },
+  "maskableLandMaxRadius": 187,
+  "maskableSafeRadius": 204.8
+}

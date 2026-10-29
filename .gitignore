@@ -1,0 +1,26 @@
+
+node_modules/
+scratch-work/
+
+# Generated Worker artifact; source and immutable release assets remain tracked.
+dist/server/
+dist/.openai/
+
+# Migration package: never commit credentials, user backups, DB snapshots, or dependencies.
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.sqlite*
+*.db
+*.db-*
+.wrangler/
+.local/
+coverage/
+*.log
+japan-geography-all.json
+japan-geography-player.json
+nihon-chiri-backup-*.json

@@ -1,0 +1,754 @@
+{
+  ".gitignore": {
+    "bytes": 427,
+    "sha256": "89594e322d13ac56d1c50ce5542b603b4eee879d90c44cb9a670e6934e9efb01"
+  },
+  ".openai/hosting.json": {
+    "bytes": 77,
+    "sha256": "8671e5109d3ad7fda4306e37c7d3e4167e8c73bf18c4f9743019e4b00375210b"
+  },
+  "AGENTS.md": {
+    "bytes": 4663,
+    "sha256": "0d5b1b0bc91580594d4eaa4a8ee871a50b1113d52dcacc34b3319d0d5f895892"
+  },
+  "CHANGELOG-icon-atlas-v7.md": {
+    "bytes": 1914,
+    "sha256": "f760435adbaea572e9860fa2bb87f7ced5398f7ffcdef8b8bebf95585c710e4c"
+  },
+  "CHANGELOG-learning-v8.md": {
+    "bytes": 3858,
+    "sha256": "fc8330ad796ed18533fe012edcf361bf80f77733c98ac32a64a17db08abaa42f"
+  },
+  "CHANGELOG-terrain-20261017.md": {
+    "bytes": 3237,
+    "sha256": "315fc65c835705c5b7a7744f5ddfa2625ba14a84391bac3212c7c66496ae55b7"
+  },
+  "GAME_SPEC.md": {
+    "bytes": 9375,
+    "sha256": "f616f5736152dc71705b3cfc27ddc106ff44a22061e57517b8d855fe3fbe6384"
+  },
+  "MIGRATION.md": {
+    "bytes": 8799,
+    "sha256": "073544d4f42550e5dd919840bf4b5ac02d04beaf5c446581229b206b6273c117"
+  },
+  "MIGRATION_REPORT.md": {
+    "bytes": 6569,
+    "sha256": "97ec9d444247ac779c3cbe8a415b773b148a99f3ab7003ec56cfb2ee062b9900"
+  },
+  "README.md": {
+    "bytes": 5985,
+    "sha256": "065f930c02f396237cf4ed00222c7aa1732f59ee649fe4bb11899551fee967bd"
+  },
+  "UPSTREAM_SOURCE.json": {
+    "bytes": 31853,
+    "sha256": "8ba7df6c9fbf397fd05f370cef3cfd04fbeebb28adba88b84bac07004ce42bda"
+  },
+  "db/schema.ts": {
+    "bytes": 1529,
+    "sha256": "ea57260e11d940cff12691a7d7684a85edb010809173f86952df4b0f307ac74d"
+  },
+  "dist/app.js": {
+    "bytes": 107507,
+    "sha256": "bdfa1e29a1e938bdeb39267e0c21e372513e7e0c9b2f6dd989c8def07b9986a9"
+  },
+  "dist/apple-touch-icon.png": {
+    "bytes": 13878,
+    "sha256": "02def36c7dd0ba229f239611385d9b113b019504f30e1ec71c8a99878689524f"
+  },
+  "dist/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/assets/hints.json": {
+    "bytes": 2183801,
+    "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3"
+  },
+  "dist/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/bootstrap.js": {
+    "bytes": 271,
+    "sha256": "bd95247fdcf82768742b41ea184eb26aae0d0084df25e5f4f178c9eda5e3165f"
+  },
+  "dist/favicon.ico": {
+    "bytes": 5133,
+    "sha256": "88f7a76a50fdaebd364bb0e958f62fac9caefee671867ba2311a0201ac781e99"
+  },
+  "dist/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/icon-192.png": {
+    "bytes": 14835,
+    "sha256": "51b4d4ab51b0bca32e6cf74aeda2d48872f3ae17c7ebbdb27fce9f2bb4b46355"
+  },
+  "dist/icon-512.png": {
+    "bytes": 48238,
+    "sha256": "ff25ac82cd306e1c1ee0dc5779e37ee115d4412436c0a699f188a424c16d72d9"
+  },
+  "dist/icon.svg": {
+    "bytes": 22905,
+    "sha256": "98f06d923171f7d6a4c358fef91e72acb21163573df1ab39bde348d49c815b8f"
+  },
+  "dist/icons/atlas-v7/apple-touch-icon.png": {
+    "bytes": 13878,
+    "sha256": "02def36c7dd0ba229f239611385d9b113b019504f30e1ec71c8a99878689524f"
+  },
+  "dist/icons/atlas-v7/favicon-16.png": {
+    "bytes": 471,
+    "sha256": "e45ad884771965b76187728baaf5af0b314480d725e333fcb6b95a4f69a473fb"
+  },
+  "dist/icons/atlas-v7/favicon-32.png": {
+    "bytes": 949,
+    "sha256": "8b8d6359fdf705bec2280c9d368f12f7a46dfbda7cb8f5564224517fe3a79e8f"
+  },
+  "dist/icons/atlas-v7/favicon.ico": {
+    "bytes": 5133,
+    "sha256": "88f7a76a50fdaebd364bb0e958f62fac9caefee671867ba2311a0201ac781e99"
+  },
+  "dist/icons/atlas-v7/favicon.svg": {
+    "bytes": 5089,
+    "sha256": "97012ee44b42c50403c34b3c6f44719641d615a9f13f1c67b665328afe4e8aad"
+  },
+  "dist/icons/atlas-v7/icon-192.png": {
+    "bytes": 14835,
+    "sha256": "51b4d4ab51b0bca32e6cf74aeda2d48872f3ae17c7ebbdb27fce9f2bb4b46355"
+  },
+  "dist/icons/atlas-v7/icon-512.png": {
+    "bytes": 48238,
+    "sha256": "ff25ac82cd306e1c1ee0dc5779e37ee115d4412436c0a699f188a424c16d72d9"
+  },
+  "dist/icons/atlas-v7/maskable-192.png": {
+    "bytes": 13584,
+    "sha256": "c07207d548183cba3d5ee3811aeb0980c68ac5577145e9f6d28b8a9801e718e7"
+  },
+  "dist/icons/atlas-v7/maskable-512.png": {
+    "bytes": 44531,
+    "sha256": "ae99f685ae86d09dd5356a55cc0c32c824d437713fcd790fe23b85e80770b893"
+  },
+  "dist/icons/atlas-v7/maskable.svg": {
+    "bytes": 22918,
+    "sha256": "e69cdde9e3bec7c06ab6456f2fd29608b5179fe251148fca50401c955f39436b"
+  },
+  "dist/icons/atlas-v7/normal.svg": {
+    "bytes": 22905,
+    "sha256": "98f06d923171f7d6a4c358fef91e72acb21163573df1ab39bde348d49c815b8f"
+  },
+  "dist/icons/atlas-v7/preview.png": {
+    "bytes": 71374,
+    "sha256": "bd225b313fc3bbf6bb8a8a4712120b825264f6987a2fd3ba6289530c90b26c6c"
+  },
+  "dist/icons/atlas-v7/provenance.json": {
+    "bytes": 530,
+    "sha256": "1f554a27a3a57425016283691a61643544272865f50b43a74f2a02360f330a6c"
+  },
+  "dist/index.html": {
+    "bytes": 2051,
+    "sha256": "2c503c125a710bff8c39aec5adbc5d664f5ea2d3403a6f4f3d54f82be2f0850d"
+  },
+  "dist/licenses/KanjiVG-CC-BY-SA-3.0.txt": {
+    "bytes": 20595,
+    "sha256": "d255e07978fd16ddfec38bc59dc9d857b885dd44ddbf4e79baf207d30746bdcc"
+  },
+  "dist/manifest.json": {
+    "bytes": 733,
+    "sha256": "50ce833e3d39f3b8c04c508d697f237c4fe606157b5bdaa0eb6ddee3be0576b7"
+  },
+  "dist/online.js": {
+    "bytes": 13046,
+    "sha256": "5e52e32b947af64633d1df9e8541799071ae4019244c5103f11b0c9d7e1e7b94"
+  },
+  "dist/releases/classroom-20261022/app.js": {
+    "bytes": 99384,
+    "sha256": "e629f0c23375da5811a42a9b13b52cb2fa0228286ce5827069bc8c2150f984af"
+  },
+  "dist/releases/classroom-20261022/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/classroom-20261022/assets/hints.json": {
+    "bytes": 269561,
+    "sha256": "52809999dac7d5bed168ead5fbcdf6109112c4daab8f2fde4f599161ecffb8d1"
+  },
+  "dist/releases/classroom-20261022/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/classroom-20261022/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/classroom-20261022/checksums.json": {
+    "bytes": 631,
+    "sha256": "d824f5e0204bbe06b75d360d2fd6d8c88d29e5126ccd71391e0aeb4cf0aa2093"
+  },
+  "dist/releases/classroom-20261022/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/classroom-20261022/style.css": {
+    "bytes": 20046,
+    "sha256": "e50e88fad259ef91c1c6cd62498729051768f887676772288d0dd8864880576d"
+  },
+  "dist/releases/classroom-ux-20261024/app.js": {
+    "bytes": 107500,
+    "sha256": "c3e111b64efa69ff0e366cf9305de244d8544dc5d06d4d696a7fdb7426598f75"
+  },
+  "dist/releases/classroom-ux-20261024/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/classroom-ux-20261024/assets/hints.json": {
+    "bytes": 2183801,
+    "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3"
+  },
+  "dist/releases/classroom-ux-20261024/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/classroom-ux-20261024/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/classroom-ux-20261024/checksums.json": {
+    "bytes": 799,
+    "sha256": "608c9ae1e889489bd3d121df43f54e326da61c533b1950e683990fdd13c289af"
+  },
+  "dist/releases/classroom-ux-20261024/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/classroom-ux-20261024/online.js": {
+    "bytes": 13046,
+    "sha256": "5e52e32b947af64633d1df9e8541799071ae4019244c5103f11b0c9d7e1e7b94"
+  },
+  "dist/releases/classroom-ux-20261024/security.js": {
+    "bytes": 37541,
+    "sha256": "0a88b891a06e88dc2b47dd35e22106127e52806c716e599f33126b234274f991"
+  },
+  "dist/releases/classroom-ux-20261024/style.css": {
+    "bytes": 22116,
+    "sha256": "e2065917108b29bcdd0c6723d4d6372581e14d73a0ef55ab4650a97ae273ee5c"
+  },
+  "dist/releases/common-20261023-final/app.js": {
+    "bytes": 107439,
+    "sha256": "5c8e4d76a3303952f81a123dab8d165373b675b98d255ccc9316e10f12bd43ff"
+  },
+  "dist/releases/common-20261023-final/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/common-20261023-final/assets/hints.json": {
+    "bytes": 2183801,
+    "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3"
+  },
+  "dist/releases/common-20261023-final/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/common-20261023-final/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/common-20261023-final/checksums.json": {
+    "bytes": 799,
+    "sha256": "2b533ca863446d478785f0d32efae7b19310bece4e5a7ba3ae8c9b1236ea67ec"
+  },
+  "dist/releases/common-20261023-final/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/common-20261023-final/online.js": {
+    "bytes": 7319,
+    "sha256": "845744a6512a87a057225642298df7ea9a412da8f72d1a892e721496b525b28c"
+  },
+  "dist/releases/common-20261023-final/security.js": {
+    "bytes": 36810,
+    "sha256": "2e71518cff665e9f4058f8173c35f3430736955a48be2afa092a81d44b3c4b1b"
+  },
+  "dist/releases/common-20261023-final/style.css": {
+    "bytes": 21239,
+    "sha256": "e2cc64d5c852ec43ce58bf3d4fb5bec8b7342ce2dd50df3a839fec86542a96ef"
+  },
+  "dist/releases/hints-pin-20261023/app.js": {
+    "bytes": 99039,
+    "sha256": "1f82ed357c26550e4fe45e8ae055e55cf2a3cb894f2e3868bb897960215aef80"
+  },
+  "dist/releases/hints-pin-20261023/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/hints-pin-20261023/assets/hints.json": {
+    "bytes": 2183801,
+    "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3"
+  },
+  "dist/releases/hints-pin-20261023/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/hints-pin-20261023/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/hints-pin-20261023/checksums.json": {
+    "bytes": 716,
+    "sha256": "026233ae744657252e9575a1aabef738549e16fda9d52e3b84e5fd081a3e4c73"
+  },
+  "dist/releases/hints-pin-20261023/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/hints-pin-20261023/security.js": {
+    "bytes": 31163,
+    "sha256": "234145974a6104582a3c8c2ed8b0c4f002779310648a776162d9b09d5761d9e4"
+  },
+  "dist/releases/hints-pin-20261023/style.css": {
+    "bytes": 21013,
+    "sha256": "6722524a6a68ef90251f52d50c53512378684349d0345afbd40dfaeb14907d49"
+  },
+  "dist/releases/inline-hints-20261024/app.js": {
+    "bytes": 107507,
+    "sha256": "bdfa1e29a1e938bdeb39267e0c21e372513e7e0c9b2f6dd989c8def07b9986a9"
+  },
+  "dist/releases/inline-hints-20261024/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/inline-hints-20261024/assets/hints.json": {
+    "bytes": 2183801,
+    "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3"
+  },
+  "dist/releases/inline-hints-20261024/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/inline-hints-20261024/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/inline-hints-20261024/checksums.json": {
+    "bytes": 799,
+    "sha256": "bc362fc1129f257782ab03722959558028690af366c0ef2a668581cdb6a22d83"
+  },
+  "dist/releases/inline-hints-20261024/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/inline-hints-20261024/online.js": {
+    "bytes": 13046,
+    "sha256": "5e52e32b947af64633d1df9e8541799071ae4019244c5103f11b0c9d7e1e7b94"
+  },
+  "dist/releases/inline-hints-20261024/security.js": {
+    "bytes": 37541,
+    "sha256": "0a88b891a06e88dc2b47dd35e22106127e52806c716e599f33126b234274f991"
+  },
+  "dist/releases/inline-hints-20261024/style.css": {
+    "bytes": 21771,
+    "sha256": "b05ea130e1f8d35217dc6646bc6d8e2e542470250b7e6a7a8b0314fb78d25f0b"
+  },
+  "dist/releases/learning-20261018/app.js": {
+    "bytes": 91153,
+    "sha256": "dc5a67cdcac5b4dfe0995fefb4b9147bccaa151cfe7624a2587e267bdfc597be"
+  },
+  "dist/releases/learning-20261018/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/learning-20261018/assets/hints.json": {
+    "bytes": 269561,
+    "sha256": "52809999dac7d5bed168ead5fbcdf6109112c4daab8f2fde4f599161ecffb8d1"
+  },
+  "dist/releases/learning-20261018/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/learning-20261018/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/learning-20261018/checksums.json": {
+    "bytes": 631,
+    "sha256": "1cb9ce36090db8911b398a1bf7585d669697a31c428d5a63d049cd6930e1201c"
+  },
+  "dist/releases/learning-20261018/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/learning-20261018/style.css": {
+    "bytes": 14418,
+    "sha256": "9b97032652d843971014b300a7c48fd53033b1f074e278214df6a54b4a4b8e7a"
+  },
+  "dist/releases/protected-20261023/app.js": {
+    "bytes": 100048,
+    "sha256": "c6d1cecdf77c77340dd8873d70ae60cfcb238a68457e29fe4bf8d41876688eb9"
+  },
+  "dist/releases/protected-20261023/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/protected-20261023/assets/hints.json": {
+    "bytes": 2104129,
+    "sha256": "13ab47192cbd8bba32765e1a4af56861b1051f59b9c5574d24bf27d55ea2f321"
+  },
+  "dist/releases/protected-20261023/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/protected-20261023/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/protected-20261023/checksums.json": {
+    "bytes": 716,
+    "sha256": "9b5c6a443580ea0b8ee1242e63fc192e05cd054291d78c70fbddd607b14b5875"
+  },
+  "dist/releases/protected-20261023/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/protected-20261023/security.js": {
+    "bytes": 29709,
+    "sha256": "d1a422c54a68a0a76b0855a9844c8c2a74cddfe0fdbf7522e9f013e13793a6cb"
+  },
+  "dist/releases/protected-20261023/style.css": {
+    "bytes": 20503,
+    "sha256": "2b850ddef49cd50bdd0a3132e0921c195d37beb856bb601e022051e587b7ca23"
+  },
+  "dist/releases/terrain-20261017/app.js": {
+    "bytes": 84598,
+    "sha256": "d63d5caad3e08f3d85eeccfaf5dc5bdf565289de2ac6d6c0335e904de19fc986"
+  },
+  "dist/releases/terrain-20261017/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/terrain-20261017/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/terrain-20261017/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/terrain-20261017/checksums.json": {
+    "bytes": 540,
+    "sha256": "970f5e569ce58d2ab3d998976b5166af891a6dca2dc96ffdc7a33b7066775f15"
+  },
+  "dist/releases/terrain-20261017/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/terrain-20261017/style.css": {
+    "bytes": 13812,
+    "sha256": "855141b17f83eba20ef6a4623a4061c41171541aacc3a247f85683fe9b51af51"
+  },
+  "dist/releases/test-rate-20261023/app.js": {
+    "bytes": 104094,
+    "sha256": "e22ceac2da4a90ce3030562bb50e70a84b6d3d0e5e3f4656609d98105b357b0b"
+  },
+  "dist/releases/test-rate-20261023/assets/handwriting.json": {
+    "bytes": 438295,
+    "sha256": "0724d387041fec00fb72355515f75fca93bc580a9d14c406f889a0c550b20e15"
+  },
+  "dist/releases/test-rate-20261023/assets/hints.json": {
+    "bytes": 2183801,
+    "sha256": "e374218e3b2d1d00c428828ed7958683540cb1f596d2fc7b75705c90d95f30a3"
+  },
+  "dist/releases/test-rate-20261023/assets/japan.geojson": {
+    "bytes": 235988,
+    "sha256": "9e92915e8df8fe084517127fe70c947e453dd76abcd06b7bd60f3834346664ae"
+  },
+  "dist/releases/test-rate-20261023/assets/questions.json": {
+    "bytes": 407803,
+    "sha256": "97833ea866829560828bbc2d1d89fc22ada4604db6c950c640896ba561b59041"
+  },
+  "dist/releases/test-rate-20261023/checksums.json": {
+    "bytes": 716,
+    "sha256": "3993d09d2164c61a6019b2828867490d9035a83c0711c9ab9b12c90fa1d06ee7"
+  },
+  "dist/releases/test-rate-20261023/handwriting.js": {
+    "bytes": 2274,
+    "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+  },
+  "dist/releases/test-rate-20261023/security.js": {
+    "bytes": 31366,
+    "sha256": "8c3c73766d92514c8cc37a929c87c7c081d2bc1f8cd998870d4f95a020c63cc6"
+  },
+  "dist/releases/test-rate-20261023/style.css": {
+    "bytes": 21013,
+    "sha256": "6722524a6a68ef90251f52d50c53512378684349d0345afbd40dfaeb14907d49"
+  },
+  "dist/repair.html": {
+    "bytes": 1461,
+    "sha256": "69d9041ac79ebc9527d0b6e7a8dfc28018447d5c7ff48a8b0050d9d717ccc2db"
+  },
+  "dist/security.js": {
+    "bytes": 37541,
+    "sha256": "0a88b891a06e88dc2b47dd35e22106127e52806c716e599f33126b234274f991"
+  },
+  "dist/style.css": {
+    "bytes": 21771,
+    "sha256": "b05ea130e1f8d35217dc6646bc6d8e2e542470250b7e6a7a8b0314fb78d25f0b"
+  },
+  "dist/sw.js": {
+    "bytes": 5256,
+    "sha256": "b8c217567e7c1fca55d3f37b08c3d204aebd76aef25af751f235e3c0f9cfd321"
+  },
+  "docs/SOURCE_VERIFICATION.json": {
+    "bytes": 566,
+    "sha256": "8a682dde0ea6ab09a3b33f5674ebf2fcccccd6d49949278b0062ab55981a1796"
+  },
+  "docs/UPSTREAM_README.md": {
+    "bytes": 10591,
+    "sha256": "da64527365fb25e9e0e5a2a0c6467c8ac16d019931596d0a609b50c4509d6900"
+  },
+  "drizzle/0000_eager_onslaught.sql": {
+    "bytes": 1185,
+    "sha256": "88bf428e1ea913861fb9b209217ac858ecebb6134ad550caf3a754b5bdbae1d7"
+  },
+  "drizzle/0001_harsh_leader.sql": {
+    "bytes": 240,
+    "sha256": "434563727f681f059b607e15c8bdc3a0188dc2d31bf5335deb4e4769a9887fab"
+  },
+  "drizzle/meta/0000_snapshot.json": {
+    "bytes": 6031,
+    "sha256": "3eb5123655f986481c9ba315e7f9ed14c274145a036748c0dc782dacc94152cf"
+  },
+  "drizzle/meta/0001_snapshot.json": {
+    "bytes": 7141,
+    "sha256": "8b97cda8c97e8d1c892c4151f1ff9276eb5078737eb23157e0b936f523876dc6"
+  },
+  "drizzle/meta/_journal.json": {
+    "bytes": 345,
+    "sha256": "442596e32599222c7cc49fc77565ad0188aba307794705772d979a03bd51527c"
+  },
+  "drizzle.config.ts": {
+    "bytes": 75,
+    "sha256": "956affaeae82085f63b73aa1efa5c3dd322e6cc4141b85848bf14387669b7811"
+  },
+  "make_data.py": {
+    "bytes": 10335,
+    "sha256": "2bc885320a6caa23bfdd2dd1f2dcc5367046c278f85fefa3dfa73beaa459cbe3"
+  },
+  "package-lock.json": {
+    "bytes": 68541,
+    "sha256": "717521e6c826a1f1a4071d5e10d5021612fda690289597fbbdc96f982329a8b3"
+  },
+  "package.json": {
+    "bytes": 1016,
+    "sha256": "e7920d2b985fa5b3f1395f85a83660741bc0b8dc630e4de3a75f0cf1ac20a9b6"
+  },
+  "scripts/add-terrain.py": {
+    "bytes": 1224,
+    "sha256": "4b42752fdc6561ce7ff6d1a92fe0e50dd708b7964d70ea81f69e0ed04b0d863d"
+  },
+  "scripts/build-editorial-hints.py": {
+    "bytes": 13986,
+    "sha256": "f9ddd15f97154ed17471205843ff1c64e4aafe02eb5956d52b82f9694b627062"
+  },
+  "scripts/build-handwriting.py": {
+    "bytes": 2999,
+    "sha256": "8b386e6e1bf79c7c93cf2a35f50fc8d9e5e6dd980d370a29da760f383674a197"
+  },
+  "scripts/build-hints.py": {
+    "bytes": 7760,
+    "sha256": "b6bf0c8eeb49335537979809490bd450d19df1e380516a266b9ec012fe0f1883"
+  },
+  "scripts/build-icons.py": {
+    "bytes": 4082,
+    "sha256": "2fa398d8986f9e83e0ed2788f152c6fbc2adfdae2d53d24848117e5ac1a02e94"
+  },
+  "scripts/build-local.mjs": {
+    "bytes": 874,
+    "sha256": "f013b4a0acb477b734d3c8084b18b4bf794793c0b81a0d7c3965b0363ddab09f"
+  },
+  "scripts/build-release.py": {
+    "bytes": 1075,
+    "sha256": "2d06996c7bd3be8986ff0fccfa7d7c1f10a9f4606911c0a972bb613c30ee88d1"
+  },
+  "scripts/build-worker.py": {
+    "bytes": 2301,
+    "sha256": "3d62ec57e63a35d46cd5e338c06c67f6f06867dde2c84e47efe44ccd981b92e0"
+  },
+  "scripts/dev-local.mjs": {
+    "bytes": 1901,
+    "sha256": "c72300416f1fc6a50bc5fac831f92c6888c098aab06537e594d93143c0966740"
+  },
+  "scripts/hydro-geometry.py": {
+    "bytes": 2775,
+    "sha256": "1500dd9690a42416efb5e94d3a142a849b19478b42f89c9d0dbadc8a975b60ac"
+  },
+  "scripts/local-http.mjs": {
+    "bytes": 451,
+    "sha256": "7a62bd1188edc703098dd63b6906d257b06857016b3e118db1309737f6f0133e"
+  },
+  "scripts/preview.mjs": {
+    "bytes": 856,
+    "sha256": "b5a5a31becdc3fb3d247e8f971130b1578497ac7634e55a47afbb580a9adbfcc"
+  },
+  "scripts/reference/capital-hint-points.json": {
+    "bytes": 15886,
+    "sha256": "6db8872d1a02b31a364bc56bcfb0b638bf9f08babc65616ad4760880d90facf3"
+  },
+  "scripts/reference/expansion-additions.json": {
+    "bytes": 482823,
+    "sha256": "b73ee3f5325749650de37e89b59c703112c83263d219eb828759b006cbd4ed98"
+  },
+  "scripts/reference/expansion-evidence.json": {
+    "bytes": 50879,
+    "sha256": "bf058a4138567d0e433707323ecfa3802e9becdfb23974f73d9e132d578e6877"
+  },
+  "scripts/reference/mountain-points.json": {
+    "bytes": 1578,
+    "sha256": "c63dcdf12031e6b39d3560422249ef70c5ecad2d21d91484e6d04cf8a30f8094"
+  },
+  "scripts/reference/pre-expansion-contract.json": {
+    "bytes": 23565,
+    "sha256": "d80314bfad9ae7a6066a8c517815b295714e1b951e7b14dcd98972ee80ebd149"
+  },
+  "scripts/reference/prefecture-editorial-facts.json": {
+    "bytes": 21195,
+    "sha256": "3a2e7134362ad9fa1db70466234b8af4578639b59e84b93efc1ff52019115801"
+  },
+  "scripts/reference/prefecture-hint-sources.json": {
+    "bytes": 12217,
+    "sha256": "4f7724b64717d77de7ebf84046f8bd8e8ec3b527a48710e5ad4ca9e47f3e181c"
+  },
+  "scripts/stage2-data.py": {
+    "bytes": 10331,
+    "sha256": "fad1b417c32ab7f3400981fab23bb4f1bfc1a72b5293e31a7fbadd7cf1817895"
+  },
+  "scripts/verify-geometry.py": {
+    "bytes": 2046,
+    "sha256": "6099f014f362764d04e1d980c8a4db9adb297fc3881f46445968cde9a0deb18f"
+  },
+  "server/db-local.mjs": {
+    "bytes": 627,
+    "sha256": "f1f661631d2e72f580ca9fe72d9f12cbf298de0ce2054447199b83ec5be1288f"
+  },
+  "server/handler.mjs": {
+    "bytes": 3894,
+    "sha256": "5af6477e1f30153cc00b8cabd4e64f5d782a64a6036fa4cecfd382cfbeaba1d7"
+  },
+  "server/ranking-legacy.mjs": {
+    "bytes": 8722,
+    "sha256": "d9580dcee475e3dc5af430047ce30f54491432550bf272e7b031ae3192988c7a"
+  },
+  "server/ranking.mjs": {
+    "bytes": 9197,
+    "sha256": "091f3c31287fbd696c93e36aba430d4a5e5991b6bb61561483756c5a4c9434fb"
+  },
+  "tests/browser/hint-viewport.html": {
+    "bytes": 965,
+    "sha256": "980423cc86a00d43129b485369e72f07c6feb96911416d142290f29d2b7a1de6"
+  },
+  "tests/classroom.cjs": {
+    "bytes": 5373,
+    "sha256": "827ac7328945fb2b4ba7658352cdada486cd1aceb3c4004e3e1c564a5aef95fc"
+  },
+  "tests/common-security.cjs": {
+    "bytes": 9878,
+    "sha256": "c01da7fb817a872d88522f3f421238299dd8e5443f4be00954095869a18d5914"
+  },
+  "tests/editorial-hints.cjs": {
+    "bytes": 2040,
+    "sha256": "90ad75ae8b8c7f723d2d44676c6449b921a666aa7e5c3cddf62a36e6e65419b8"
+  },
+  "tests/expansion.cjs": {
+    "bytes": 8358,
+    "sha256": "b3cc2244148b56e3deee0401567a7d1acd3e9f83c4f80a77d1f5e99c8e1233fa"
+  },
+  "tests/fixtures/learning-baseline-app.js": {
+    "bytes": 84598,
+    "sha256": "d63d5caad3e08f3d85eeccfaf5dc5bdf565289de2ac6d6c0335e904de19fc986"
+  },
+  "tests/fixtures/manifest-v15.json": {
+    "bytes": 733,
+    "sha256": "50ce833e3d39f3b8c04c508d697f237c4fe606157b5bdaa0eb6ddee3be0576b7"
+  },
+  "tests/fixtures/upstream-sha256.json": {
+    "bytes": 2517,
+    "sha256": "a67e65d9207198a67367e0e85cdf0e1a06a58e40c7e17cd04bf9603d1ecf36eb"
+  },
+  "tests/handwriting.cjs": {
+    "bytes": 732,
+    "sha256": "cefb5d361cf57a473afce0a89408ded474a8ac9c473441b88707b8ad113a9ae2"
+  },
+  "tests/hint-layout.cjs": {
+    "bytes": 5532,
+    "sha256": "2bfa3e3ec2c6bb52152f9ce0fad9ed91c4dbbe836d2210e599a4e4da3c37386a"
+  },
+  "tests/icons.py": {
+    "bytes": 2329,
+    "sha256": "db99ee3f6b5a0c5024e549f83d437c175e08a555c8e09756977091c1e4d248cb"
+  },
+  "tests/learning.cjs": {
+    "bytes": 9746,
+    "sha256": "247bf0f9c4ecc8e1ad6cf6b18ec9d61b034df79ca8bd5375964bdd930a42e93d"
+  },
+  "tests/migration-local.mjs": {
+    "bytes": 2224,
+    "sha256": "eba31da6b01a55959e02eda9a9864cc67c4a6394779cff1729984f6426b16940"
+  },
+  "tests/official-ui.mjs": {
+    "bytes": 9173,
+    "sha256": "716c3a7d852e5b2fa0e76cbd575bb399887cbab5c4427994876a190aa97d7938"
+  },
+  "tests/ranking-common.mjs": {
+    "bytes": 7977,
+    "sha256": "7ee403294819a56b477641dd68042e4edcf5931cfa871d3976393c517ce60853"
+  },
+  "tests/reset-once.cjs": {
+    "bytes": 3658,
+    "sha256": "400a912b8fb27ba027a47265f3da429c62926ac3470b884981d8675e7cde971e"
+  },
+  "tests/security-pin.cjs": {
+    "bytes": 5252,
+    "sha256": "cfd08685ff8774d6a773b38a27b22ec050fbbc7842421b92ea32b1287a597b92"
+  },
+  "tests/security.cjs": {
+    "bytes": 104,
+    "sha256": "451c6d6a485cdc96391d99b8a41c38405c9aeaaacbc854c1199d48507ac43be1"
+  },
+  "tests/stage1.cjs": {
+    "bytes": 2995,
+    "sha256": "656921f98e1b0e62d4cc349b669643bb0cad8e9d94f7ad551852ce27428213b0"
+  },
+  "tests/stage2.cjs": {
+    "bytes": 4832,
+    "sha256": "299e466d20f62863fe4544b9087d33223f5b88d6ee02ff0487b431cb254f6269"
+  },
+  "tests/stage3.cjs": {
+    "bytes": 6056,
+    "sha256": "6d6de1bad5d491f19645b4ec35bc471640a84980a8caefb6249bb1ae5ec6aad6"
+  },
+  "tests/sw.cjs": {
+    "bytes": 9734,
+    "sha256": "02e42fe4b559ca9ead432b6b72fa11e2f1f073862e33a42b333540edcd25ea16"
+  },
+  "tests/test-rates.cjs": {
+    "bytes": 5756,
+    "sha256": "58d05106cc72b80e1f7b6bfea4a05fc1bcec9b47c6fbcfd7573f34846382a37d"
+  },
+  "tests/upstream-fixtures.cjs": {
+    "bytes": 528,
+    "sha256": "0cef660df540f3c21c0efae2ed70bc4f7c7d1d9c24445be859469b2370d2ab17"
+  },
+  "tests/ux.cjs": {
+    "bytes": 5605,
+    "sha256": "b4ae5e52dbee4db92af84ce7234a5e30cf5a49c1f07ea0bc5076be89dcfa33df"
+  },
+  "tests/worker-common.mjs": {
+    "bytes": 1435,
+    "sha256": "5394780d1ebe95525e1a63dd724a9a004ef649fb053919167d708f540c92d902"
+  },
+  "PACKAGE_AUDIT.json": {
+    "bytes": 926,
+    "sha256": "26c48cdab1592d9c2ee6d7868f2d751604b08aa6cd6d2ec1341fbbf93e3e8a3c"
+  }
+}

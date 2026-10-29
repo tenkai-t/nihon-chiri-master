@@ -1,0 +1,519 @@
+[
+  {
+    "id": "p1",
+    "point": [
+      141.3468778,
+      43.06432451
+    ],
+    "title": "北海道庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%8C%97%E6%B5%B7%E9%81%93%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "9bab1c6cef930b2900b19a7a48fef86bdc2d0ba6e50aabc53c5eed2fae068517"
+  },
+  {
+    "id": "p2",
+    "point": [
+      140.7405482,
+      40.82458882
+    ],
+    "title": "青森県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%9D%92%E6%A3%AE%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "bb22824d5fdb9b9ec28908f496b0dbb1cf97e86a1cda045a6866d2abe6911106"
+  },
+  {
+    "id": "p3",
+    "point": [
+      141.15269555,
+      39.7035257
+    ],
+    "title": "岩手県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%B2%A9%E6%89%8B%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "1e90eec289bfd1203edd9d84bdd47357afd2ced10d98358b510d9263cfe9fb89"
+  },
+  {
+    "id": "p4",
+    "point": [
+      140.87207222,
+      38.26857887
+    ],
+    "title": "宮城県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%AE%AE%E5%9F%8E%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "762530e225dae58cdd147c40a71e423bf8928e1f7e023041843d38a02c9e3c9e"
+  },
+  {
+    "id": "p5",
+    "point": [
+      140.10238069,
+      39.71862641
+    ],
+    "title": "秋田県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%A7%8B%E7%94%B0%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "f6f98a164e694ee2c6543d8f55f9252d6f9167feefcb5d6d25628c48cf5447c8"
+  },
+  {
+    "id": "p6",
+    "point": [
+      140.36369034,
+      38.24043378
+    ],
+    "title": "山形県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%B1%B1%E5%BD%A2%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "10aeccfe8f450117fcdff8c58a8123f59ac929c64799b9dd46fa583a11212428"
+  },
+  {
+    "id": "p7",
+    "point": [
+      140.46777103,
+      37.75002873
+    ],
+    "title": "福島県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%A6%8F%E5%B3%B6%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "2ce73840898a6ada21d09c7ad062f6030be68869a122863528b73b4ec75c73a5"
+  },
+  {
+    "id": "p8",
+    "point": [
+      140.44682363,
+      36.34173699
+    ],
+    "title": "茨城県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E8%8C%A8%E5%9F%8E%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "23519b6618531ca58a3c1a94f2508341a7f7e3c54f72a36c821a07b4c142a29a"
+  },
+  {
+    "id": "p9",
+    "point": [
+      139.88359211,
+      36.56591154
+    ],
+    "title": "栃木県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%A0%83%E6%9C%A8%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "a2596d35d5f0c5495d1b0a1bb61a447c3d6106c07da36da833fbe4c8e1a290ae"
+  },
+  {
+    "id": "p10",
+    "point": [
+      139.06045298,
+      36.39068771
+    ],
+    "title": "群馬県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%BE%A4%E9%A6%AC%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "eaceea936c8a1a56862af40451860286628c84c6abd9514ffbeb66c8e1e50b72"
+  },
+  {
+    "id": "p11",
+    "point": [
+      139.6490115,
+      35.85703302
+    ],
+    "title": "埼玉県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%9F%BC%E7%8E%89%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "a924cc138ae4384b024a13c414a683c5b9b4f7515125fe2c2f3c95b07d485dd0"
+  },
+  {
+    "id": "p12",
+    "point": [
+      140.12315397,
+      35.60456013
+    ],
+    "title": "千葉県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%8D%83%E8%91%89%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "8c895ff87fb50a3ac73c866939a6f7d85f4b516bd4a659af2c7485cbd1c971fe"
+  },
+  {
+    "id": "p13",
+    "point": [
+      139.69172242,
+      35.68950067
+    ],
+    "title": "東京都庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "d051aa000fd87bcf3cb0fb5492a95fdc68737bbf171f3123119613cda5f897a4"
+  },
+  {
+    "id": "p14",
+    "point": [
+      139.64253682,
+      35.44773404
+    ],
+    "title": "神奈川県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "f49bd0257931cd9b4fc84d623590e73974a1767cc2f9748da2d6cb175135ce38"
+  },
+  {
+    "id": "p15",
+    "point": [
+      139.0232446,
+      37.90245146
+    ],
+    "title": "新潟県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%96%B0%E6%BD%9F%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "6eb26de73717db9ea95f5bbe24b0cb50d80982a7d49680d6e37a3811a5f16183"
+  },
+  {
+    "id": "p16",
+    "point": [
+      137.21130526,
+      36.69526476
+    ],
+    "title": "富山県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%AF%8C%E5%B1%B1%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "fc3ed93a56bc3cc86e3a9341baad1e5957d827e1f2d366af25dc5f6d26f491b1"
+  },
+  {
+    "id": "p17",
+    "point": [
+      136.62566904,
+      36.59460555
+    ],
+    "title": "石川県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%9F%B3%E5%B7%9D%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "ec0bf6d3663050c936384f365e96db5046819b3fc73eb639c4ed2b7ce072920d"
+  },
+  {
+    "id": "p18",
+    "point": [
+      136.22171994,
+      36.06520851
+    ],
+    "title": "福井県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%A6%8F%E4%BA%95%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "390788420989a7722f62a38ad26fdba1ca16c5b88227746db2085fc2b0820e67"
+  },
+  {
+    "id": "p19",
+    "point": [
+      138.56845518,
+      35.66410789
+    ],
+    "title": "山梨県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%B1%B1%E6%A2%A8%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "e81cb2d4af8d16be543cca59b598aa3a5f69845e543d6f29d900f5e26c353fca"
+  },
+  {
+    "id": "p20",
+    "point": [
+      138.1809036,
+      36.65130564
+    ],
+    "title": "長野県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%95%B7%E9%87%8E%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "7d2050972fec631e32448c5de6c83a21333a25129733530d0de13fd44c8c6b72"
+  },
+  {
+    "id": "p21",
+    "point": [
+      136.72365686,
+      35.39117408
+    ],
+    "title": "岐阜県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%B2%90%E9%98%9C%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "e6fcc43c1279d1ef4f7a905109885d2e9778d75617cec131bb9c4515d789936d"
+  },
+  {
+    "id": "p22",
+    "point": [
+      138.3830556,
+      34.97694444
+    ],
+    "title": "静岡県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%9D%99%E5%B2%A1%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "0268bb43d26bb3223719c332d9eec3f36cec857eaa83fd795275cc4c8457beba"
+  },
+  {
+    "id": "p23",
+    "point": [
+      136.90658224,
+      35.18020877
+    ],
+    "title": "愛知県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "fb5c01fefc7762fdbe17e66842c57424b9b8e8906c6be69fe1dd0f0ca50f6a08"
+  },
+  {
+    "id": "p24",
+    "point": [
+      136.5086111,
+      34.73027778
+    ],
+    "title": "三重県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E4%B8%89%E9%87%8D%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "54f9f426b20e3a45bd1f37a29b8ba7f5c122297cb719bc55939c5ed4bcc25639"
+  },
+  {
+    "id": "p25",
+    "point": [
+      135.86856827,
+      35.00451284
+    ],
+    "title": "滋賀県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%BB%8B%E8%B3%80%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "d76371da170760155fc750f9f6b736e1b3f3ad4134592e91607183b874175591"
+  },
+  {
+    "id": "p26",
+    "point": [
+      135.7556129,
+      35.02124244
+    ],
+    "title": "京都府庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E4%BA%AC%E9%83%BD%E5%BA%9C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "37248482dfd5909cc4914190ced2b6544737b6b11f3187523fc0e784df5ff307"
+  },
+  {
+    "id": "p27",
+    "point": [
+      135.52003732,
+      34.68634426
+    ],
+    "title": "大阪府庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "7af525ac7eaf8cfee41793e4e25ae7d85e06affe0facca1ce1d5e7518b7bb6d5"
+  },
+  {
+    "id": "p28",
+    "point": [
+      135.1830778,
+      34.69125701
+    ],
+    "title": "兵庫県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%85%B5%E5%BA%AB%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "0c6575cdfe217d0a81a4afa988601c26c2f13506f929f4d19e67b9a1f37b6337"
+  },
+  {
+    "id": "p29",
+    "point": [
+      135.83286117,
+      34.68527418
+    ],
+    "title": "奈良県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%A5%88%E8%89%AF%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "244be0eb6598fb075c2380c7edc6969884415bd6f86d04621ba31d6db75280a8"
+  },
+  {
+    "id": "p30",
+    "point": [
+      135.1675,
+      34.22611111
+    ],
+    "title": "和歌山県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%92%8C%E6%AD%8C%E5%B1%B1%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "5434c8185770efb3871d55a14ac7e55e7e72600b1f60dec7e8170a9dc60ab5e4"
+  },
+  {
+    "id": "p31",
+    "point": [
+      134.2382614,
+      35.50344908
+    ],
+    "title": "鳥取県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%B3%A5%E5%8F%96%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "85dfed2a0cf74042e26195be0e0ba2c93ceadc824004fb6f052b07dc9377956e"
+  },
+  {
+    "id": "p32",
+    "point": [
+      133.05052,
+      35.47229297
+    ],
+    "title": "島根県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%B3%B6%E6%A0%B9%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "5f652af5733d326cd872bc74cbefc77428fb31b4bcd089fc18cada1f19fd89b8"
+  },
+  {
+    "id": "p33",
+    "point": [
+      133.9350321,
+      34.66173908
+    ],
+    "title": "岡山県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%B2%A1%E5%B1%B1%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "aaecbcef48e11a04eb7670da67f0646b09292ebfed0fcde7a5fb8c1e9d4099cc"
+  },
+  {
+    "id": "p34",
+    "point": [
+      132.45964629,
+      34.39655824
+    ],
+    "title": "広島県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "bf80b9cb3b7cf279dc702a44810b732fb8b14c373ebc59fc22e0db5f943806d6"
+  },
+  {
+    "id": "p35",
+    "point": [
+      131.4706537,
+      34.1860411
+    ],
+    "title": "山口県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%B1%B1%E5%8F%A3%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "f8ea4535c1294ce5ffcdeada717f13cf7e537a9d437dbeb0a85541826ccfac91"
+  },
+  {
+    "id": "p36",
+    "point": [
+      134.55928559,
+      34.06576057
+    ],
+    "title": "徳島県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "3e4f6dc403ec2e68e4d1180955f2de99dadf5367b92f0b760b8d5871f486f8e4"
+  },
+  {
+    "id": "p37",
+    "point": [
+      134.04329144,
+      34.34011187
+    ],
+    "title": "香川県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%A6%99%E5%B7%9D%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "c29f6afb091e089f8a0a63f0d44f94cdf936a14e881d78d7766f89d67ce7f60d"
+  },
+  {
+    "id": "p38",
+    "point": [
+      132.7656816,
+      33.84164208
+    ],
+    "title": "愛媛県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%84%9B%E5%AA%9B%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "d2cd797cbe67986efd22f7c4e7d5003580eb0369d6178dfa8458e51da21d6788"
+  },
+  {
+    "id": "p39",
+    "point": [
+      133.5311111,
+      33.55972222
+    ],
+    "title": "高知県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%AB%98%E7%9F%A5%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "19158f6019cc4c912b8b7363d36b231d1c746154141f8a5fba8950068f9fed5c"
+  },
+  {
+    "id": "p40",
+    "point": [
+      130.41796764,
+      33.60638879
+    ],
+    "title": "福岡県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%A6%8F%E5%B2%A1%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "6ee4ab5e8885352b23a476f1ea89999f38625a0ecda91804372a9e075b8ce8c6"
+  },
+  {
+    "id": "p41",
+    "point": [
+      130.29879185,
+      33.24935118
+    ],
+    "title": "佐賀県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E4%BD%90%E8%B3%80%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "84d8a7e4710bd46cf5913b5433eb3103fabd8ef197424ea8c6d377d1e0d42369"
+  },
+  {
+    "id": "p42",
+    "point": [
+      129.8672514,
+      32.75003952
+    ],
+    "title": "長崎県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%95%B7%E5%B4%8E%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "eaed78975b052d5a8124fb6981084a2577ecf42a65e5ff7ffb06f3938544770d"
+  },
+  {
+    "id": "p43",
+    "point": [
+      130.74158447,
+      32.7898
+    ],
+    "title": "熊本県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E7%86%8A%E6%9C%AC%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "7cafd0a3ab24868c2a72e6a1a5a45f8f68e8f175de022a402d70b7055cc875f6"
+  },
+  {
+    "id": "p44",
+    "point": [
+      131.61264456,
+      33.23812986
+    ],
+    "title": "大分県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%A4%A7%E5%88%86%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "4d4d728301616f87f648d7792ca5ea998d567dff3e9fa0ca9adfbf512c47c909"
+  },
+  {
+    "id": "p45",
+    "point": [
+      131.42388686,
+      31.91103415
+    ],
+    "title": "宮崎県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "d58dee6ba1a90ccb93c16eca601a38bfa9cdfd30465c9d30d0fd961a4c761d55"
+  },
+  {
+    "id": "p46",
+    "point": [
+      130.55802486,
+      31.56017126
+    ],
+    "title": "鹿児島県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E9%B9%BF%E5%85%90%E5%B3%B6%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "4c08c8c3066a053e5d2be2c71c981fa65ccac2253d23cd54f516fd247a7d3c4f"
+  },
+  {
+    "id": "p47",
+    "point": [
+      127.6809218,
+      26.21244491
+    ],
+    "title": "沖縄県庁舎",
+    "url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%B2%96%E7%B8%84%E7%9C%8C%E5%BA%81",
+    "checkedAt": "2026-10-23",
+    "sha256": "0bd04c18a293c0318c9fa3906ac5ac7a14e80b1cc402d58a77a4f4c43809966f"
+  }
+]

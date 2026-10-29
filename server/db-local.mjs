@@ -1,0 +1,3 @@
+import {DatabaseSync} from 'node:sqlite';
+import fs from 'node:fs';
+export function localDB(file=':memory:'){const sqlite=new DatabaseSync(file);for(const name of fs.readdirSync(new URL('../drizzle/',import.meta.url)).filter(s=>s.endsWith('.sql')))sqlite.exec(fs.readFileSync(new URL('../drizzle/'+name,import.meta.url),'utf8').replaceAll('--> statement-breakpoint',''));const DB={prepare(sql){return {bind(...args){const stmt=()=>sqlite.prepare(sql);return {async first(){return stmt().get(...args)||null},async all(){return{results:stmt().all(...args)}},async run(){return {meta:stmt().run(...args)}}}}}}};return{DB,sqlite}}

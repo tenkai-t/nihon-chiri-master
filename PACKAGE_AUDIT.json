@@ -1,0 +1,34 @@
+{
+  "public_version": 15,
+  "source_commit": "b7a01ab65fe2a9fa852514e3a6a3ed63da7335f6",
+  "files_before_audit": 187,
+  "runtime_and_data_unchanged": true,
+  "intentional_source_differences": [
+    ".gitignore",
+    "README.md",
+    "package.json",
+    "tests/classroom.cjs",
+    "tests/editorial-hints.cjs",
+    "tests/icons.py",
+    "tests/learning.cjs",
+    "tests/official-ui.mjs"
+  ],
+  "excluded": [
+    "node_modules",
+    ".git",
+    "generated Worker/deployment files",
+    "DB snapshots",
+    "credentials and environment files",
+    "personal learning backups",
+    "historical browser validation screenshots"
+  ],
+  "checks": [
+    "ZIP CRC",
+    "each file SHA-256",
+    "private filename / SQLite header / known secret pattern scan",
+    "all original runtime and teaching bytes match v15"
+  ],
+  "largest_source_file_bytes": 2183801,
+  "production_data_accessed": false,
+  "published_or_modified_site": false
+}

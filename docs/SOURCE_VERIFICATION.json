@@ -1,0 +1,19 @@
+{
+  "published_artifact_comparison": {
+    "files": 113,
+    "all_match": true,
+    "mismatches": []
+  },
+  "direct_live_http": {
+    "status": "unavailable",
+    "reason": "HTTP Error 403: Forbidden",
+    "limitation": "Direct live HTTP bytes could not be checked from this execution environment."
+  },
+  "native_metadata": {
+    "version": 15,
+    "source_commit": "b7a01ab65fe2a9fa852514e3a6a3ed63da7335f6",
+    "deployment_status": "succeeded",
+    "public_url": "https://nihon-chiri-master.prime-otter-8314.chatgpt.site",
+    "checked_date": "2026-10-28"
+  }
+}
