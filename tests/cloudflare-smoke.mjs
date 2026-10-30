@@ -6,11 +6,11 @@ const root=new URL(process.argv[2]||'http://127.0.0.1:8787');
 assert(['127.0.0.1','localhost','[::1]'].includes(root.hostname),'This test is local-only; never send synthetic writes to production.');
 const request=async(path,init={})=>fetch(new URL(path,root),{redirect:'manual',...init});
 for(const path of ['/','/index.html','/?cloudflare-smoke=1']){
- const r=await request(path);assert.equal(r.status,200,path);assert(!r.headers.has('location'));assert((await r.text()).includes('releases/mixed-kana-20261030/app.js'));
+ const r=await request(path);assert.equal(r.status,200,path);assert(!r.headers.has('location'));assert((await r.text()).includes('releases/startup-header-20261030/app.js'));
 }
-const checksums=JSON.parse(readFileSync(new URL('../dist/releases/mixed-kana-20261030/checksums.json',import.meta.url)));
+const checksums=JSON.parse(readFileSync(new URL('../dist/releases/startup-header-20261030/checksums.json',import.meta.url)));
 for(const [path,want]of Object.entries(checksums)){
- const r=await request('/releases/mixed-kana-20261030/'+path);assert.equal(r.status,200,path);assert.equal(createHash('sha256').update(Buffer.from(await r.arrayBuffer())).digest('hex'),want,path);
+ const r=await request('/releases/startup-header-20261030/'+path);assert.equal(r.status,200,path);assert.equal(createHash('sha256').update(Buffer.from(await r.arrayBuffer())).digest('hex'),want,path);
 }
 let r=await request('/api/rank/leaderboard?department=pref');assert.equal(r.status,200);assert(Array.isArray((await r.json()).rows));
 r=await request('/api/rank/identity',{method:'POST',headers:{origin:'https://external.invalid','content-type':'application/json'},body:'{}'});assert.equal(r.status,403);

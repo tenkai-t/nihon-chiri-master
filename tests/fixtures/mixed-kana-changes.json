@@ -1,14 +1,14 @@
 {
   "dist/app.js": {
-    "sha256": "f9e8b59ffefd02f4d573fc1b629aec6d63c7f3dccf5bf4c1fda16d0526f1242b",
-    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID."
+    "sha256": "7472626d0949717810ac4b1be3f6cb962fdd5a7e0d288274f48a488a25c07f6f",
+    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030."
   },
   "dist/index.html": {
-    "sha256": "ffbdf54607430caf74df86e90831bdc15ea3a4a98cfd9e2e45daa7982a4f3305",
-    "reason": "Reference the new immutable mixed-kana release."
+    "sha256": "ee455e1722923d91ba3c870b0084d9ffcab8953e04d8a2976e5d4c1577131a84",
+    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030."
   },
   "dist/sw.js": {
-    "sha256": "27128d24fc4e951a7545f0f77c4fec9c5c61abfcfe84ed4286e3860fed17e678",
-    "reason": "Cache and verify the new release without replacing old caches."
+    "sha256": "f5f7588bdf94804696f96b4c4fa43015b74be549609d27e8ec97393bc67c14d2",
+    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030."
   }
 }
