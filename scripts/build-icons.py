@@ -1,5 +1,7 @@
 """Atlas icon: existing GSI/dataofjapan coast, simplified and projected north-up.
 No user state / question data writes. SVG and PNG share the same polygon coordinates.
+Gold ring: r233, width 3 at 512, full opacity (renewed 2026-11-04 to match the
+World Master atlas design A; land, colours and layout are unchanged).
 """
 from pathlib import Path
 import json,math
@@ -25,12 +27,12 @@ def paths(kind):
  scale=(187 if kind=='maskable' else 215)/radius
  return [[(256+(x-cx)*scale,256+(y-cy)*scale) for x,y in p] for p in ps]
 def svg(kind):
- ps=paths(kind);gold='' if kind=='favicon' else '<circle cx="256" cy="256" r="233" fill="none" stroke="'+GOLD+'" stroke-width="1.5" opacity=".65"/>'
+ ps=paths(kind);gold='' if kind=='favicon' else '<circle cx="256" cy="256" r="233" fill="none" stroke="'+GOLD+'" stroke-width="3"/>'
  d=''.join('<path d="'+''.join(('M' if i==0 else 'L')+f'{x:.3f},{y:.3f}' for i,(x,y) in enumerate(p))+'Z"/>' for p in ps)
  return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>日本地理マスター</title><rect width="512" height="512" fill="{BG}"/>{gold}<g fill="{FG}">{d}</g></svg>\n'
 def raster(kind,size):
  s=4;im=Image.new('RGB',(size*s,size*s),BG);d=ImageDraw.Draw(im);k=size*s/512
- if kind!='favicon':d.ellipse([23*k,23*k,489*k,489*k],outline=GOLD,width=max(1,round(1.5*k)))
+ if kind!='favicon':d.ellipse([23*k,23*k,489*k,489*k],outline=GOLD,width=max(1,round(3*k)))
  for p in paths(kind):d.polygon([(round(x*k),round(y*k)) for x,y in p],fill=FG)
  return im.resize((size,size),Image.Resampling.LANCZOS)
 for kind in ['normal','maskable','favicon']:(out/(kind+'.svg')).write_text(svg(kind))
