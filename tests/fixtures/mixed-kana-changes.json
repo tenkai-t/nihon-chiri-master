@@ -1,15 +1,15 @@
 {
   "dist/app.js": {
-    "sha256": "03198f79213ca9a921a21a07e003f8af85c706adf78f5291cb6bd0863950f51c",
-    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030. Reference official-full-20261106 release (DATA_ROOT/APP_RELEASE nihon-chiri-v18-official-full)."
+    "sha256": "fcb571edec67ed464b4cc69b165e49baccba77d86163bceb60565f1f277db8c6",
+    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030. Reference masters-fixed-20261107 release (DATA_ROOT/APP_RELEASE nihon-chiri-v19-masters-fixed). Official masters: region fixed to all and daily mode removed in masters-fixed-20261107 (APP_RELEASE nihon-chiri-v19-masters-fixed)."
   },
   "dist/index.html": {
-    "sha256": "886946c010d34da70292282d47862437fd45efc4eabdb8a1125eec33a1d90816",
-    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030. Reference official-full-20261106 release."
+    "sha256": "997cc93e50bebb427a9c28896547b65e95df5a7e97e0e9c65f4811235aecd823",
+    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030. Reference masters-fixed-20261107 release."
   },
   "dist/sw.js": {
-    "sha256": "ffdad94d3e5203f480bd2d894c00e4353a972690fd77f3af33288fccd091ab64",
-    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030. Reference official-full-20261106 release (RELEASE nihon-chiri-v18-official-full)."
+    "sha256": "5469246c181de68cc3e9ec3a943e0cfd2558ada8a08c6957d8af096346b57203",
+    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030. Reference masters-fixed-20261107 release (RELEASE nihon-chiri-v19-masters-fixed)."
   },
   "dist/online.js": {
     "sha256": "5c02e893c06f1833dd3ee94534a12f73e467b2f100411128ccbc07a471ad472c",
