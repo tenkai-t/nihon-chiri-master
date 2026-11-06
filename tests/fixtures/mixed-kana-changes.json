@@ -1,14 +1,66 @@
 {
   "dist/app.js": {
-    "sha256": "7472626d0949717810ac4b1be3f6cb962fdd5a7e0d288274f48a488a25c07f6f",
-    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030."
+    "sha256": "03198f79213ca9a921a21a07e003f8af85c706adf78f5291cb6bd0863950f51c",
+    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030. Reference official-full-20261106 release (DATA_ROOT/APP_RELEASE nihon-chiri-v18-official-full)."
   },
   "dist/index.html": {
-    "sha256": "ee455e1722923d91ba3c870b0084d9ffcab8953e04d8a2976e5d4c1577131a84",
-    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030."
+    "sha256": "886946c010d34da70292282d47862437fd45efc4eabdb8a1125eec33a1d90816",
+    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030. Reference official-full-20261106 release."
   },
   "dist/sw.js": {
-    "sha256": "f5f7588bdf94804696f96b4c4fa43015b74be549609d27e8ec97393bc67c14d2",
-    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030."
+    "sha256": "ffdad94d3e5203f480bd2d894c00e4353a972690fd77f3af33288fccd091ab64",
+    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030. Reference official-full-20261106 release (RELEASE nihon-chiri-v18-official-full)."
+  },
+  "dist/online.js": {
+    "sha256": "5c02e893c06f1833dd3ee94534a12f73e467b2f100411128ccbc07a471ad472c",
+    "reason": "Official ranking departments now use full question counts (pref/location/capital 47, terrain/mixed random 100) under condition version japan-geography-official-v15-players; labels, hub note and progress total updated."
+  },
+  "dist/apple-touch-icon.png": {
+    "sha256": "e82455148481965077dbeb61b3cd375ccd18cce9c67f3f499989986222341ae8",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icon-192.png": {
+    "sha256": "48dd026c9e029a5090f9ca1b0336ae7443b06f6f21c5637355aacc77005f210f",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icon-512.png": {
+    "sha256": "284a0fea03e9eaf7b12be670a4508bef8b797b78876637e6d2b19f6aa5234876",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icon.svg": {
+    "sha256": "e5139fb788c7b66b0455dd30fb027a2514b069a7f6cef1fbd9c8e9854bc48009",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/apple-touch-icon.png": {
+    "sha256": "e82455148481965077dbeb61b3cd375ccd18cce9c67f3f499989986222341ae8",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/icon-192.png": {
+    "sha256": "48dd026c9e029a5090f9ca1b0336ae7443b06f6f21c5637355aacc77005f210f",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/icon-512.png": {
+    "sha256": "284a0fea03e9eaf7b12be670a4508bef8b797b78876637e6d2b19f6aa5234876",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/maskable-192.png": {
+    "sha256": "47581fee031dffbfdd6c47e0f0ac98332ed23c7be6161e832b4cfe29dc6e3d8e",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/maskable-512.png": {
+    "sha256": "f1efa7983043708feab6037c606b7073931f93bb8b8c7ac0a9296dac3bf3a481",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/maskable.svg": {
+    "sha256": "1047cacbf76b41a0f515c5e14e78384cccd3a25146e9a816c069bec1c08ab09f",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/normal.svg": {
+    "sha256": "e5139fb788c7b66b0455dd30fb027a2514b069a7f6cef1fbd9c8e9854bc48009",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/icons/atlas-v7/preview.png": {
+    "sha256": "ac57f76a9a87ef6e38fe8f214773aa71f228e3d8dddde25a0fde3c1f6f9d42eb",
+    "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
   }
 }
