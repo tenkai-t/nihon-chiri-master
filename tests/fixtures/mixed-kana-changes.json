@@ -1,15 +1,15 @@
 {
   "dist/app.js": {
-    "sha256": "e5ecfaeb2c39b71acf2bceb226043c8eee797d60d4e153e9953085c4d2bc2778",
-    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030. Reference usage-mode-20261119 release (DATA_ROOT/APP_RELEASE nihon-chiri-v20-usage-mode). Official masters: region fixed to all and daily mode removed in usage-mode-20261119 (APP_RELEASE nihon-chiri-v20-usage-mode). Reference usage-mode-20261119 release (APP_RELEASE nihon-chiri-v20-usage-mode)."
+    "sha256": "e695f13a2a705b70cdb3821f6c7e646596d7a2af547766456b5ce680e1e494a1",
+    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030. Reference auto-update-20261119 release (DATA_ROOT/APP_RELEASE nihon-chiri-v21-auto-update). Official masters: region fixed to all and daily mode removed in auto-update-20261119 (APP_RELEASE nihon-chiri-v21-auto-update). Reference auto-update-20261119 release (APP_RELEASE nihon-chiri-v21-auto-update). Reference auto-update-20261119 release (APP_RELEASE nihon-chiri-v21-auto-update)."
   },
   "dist/index.html": {
-    "sha256": "669f5e6f1cd522bbff316abb6d5bacef15c23781eba89da96d98b3ebb107c427",
-    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030. Reference usage-mode-20261119 release."
+    "sha256": "7c3275f937e0e39320b2f1f08c37db3161a080e20b53284989c1f9e5150a3b64",
+    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030. Reference auto-update-20261119 release."
   },
   "dist/sw.js": {
-    "sha256": "a71b593db3e1f9cf0f1cc3e567e7ff63379996c9a05a148893bd98360ab519a6",
-    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030. Reference usage-mode-20261119 release (RELEASE nihon-chiri-v20-usage-mode)."
+    "sha256": "3534912a5143ee6bf05fe9e1a44878ea320d60da3ac2090be349bf9436029ef6",
+    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030. Reference auto-update-20261119 release (RELEASE nihon-chiri-v21-auto-update). Auto-update support 2026-11-19: CLIENT_COUNT message reports open window count so the page can defer next-launch auto-apply while another tab is in use."
   },
   "dist/online.js": {
     "sha256": "5c02e893c06f1833dd3ee94534a12f73e467b2f100411128ccbc07a471ad472c",

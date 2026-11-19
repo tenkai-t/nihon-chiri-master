@@ -3,7 +3,7 @@
   "private": true,
   "version": "3.0.0",
   "scripts": {
-    "test": "node tests/stage1.cjs && node tests/stage2.cjs && node tests/stage3.cjs && node tests/handwriting.cjs && node tests/sw.cjs && node tests/reset-once.cjs && node tests/expansion.cjs && node tests/learning.cjs && node tests/classroom.cjs && node tests/editorial-hints.cjs && node tests/test-rates.cjs && node tests/common-security.cjs && node tests/security-pin.cjs && node tests/usage-mode.cjs && node tests/ranking-common.mjs && node tests/worker-common.mjs && node tests/official-ui.mjs && node tests/ux.cjs && node tests/hint-layout.cjs && node tests/mixed-kana.cjs",
+    "test": "node tests/stage1.cjs && node tests/stage2.cjs && node tests/stage3.cjs && node tests/handwriting.cjs && node tests/sw.cjs && node tests/reset-once.cjs && node tests/expansion.cjs && node tests/learning.cjs && node tests/classroom.cjs && node tests/editorial-hints.cjs && node tests/test-rates.cjs && node tests/common-security.cjs && node tests/security-pin.cjs && node tests/usage-mode.cjs && node tests/auto-update.cjs && node tests/ranking-common.mjs && node tests/worker-common.mjs && node tests/official-ui.mjs && node tests/ux.cjs && node tests/hint-layout.cjs && node tests/mixed-kana.cjs",
     "dev": "node scripts/dev-local.mjs",
     "build": "node scripts/build-local.mjs",
     "predev": "npm run build",
