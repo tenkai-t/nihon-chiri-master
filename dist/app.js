@@ -1,6 +1,6 @@
 'use strict';
-const DATA_ROOT='releases/masters-fixed-20261107/';
-const APP_RELEASE='nihon-chiri-v19-masters-fixed';let hintData={items:{}};let playerChosen=false;let registeredAccess=()=>false;let afterPlayerUnlock=()=>{};
+const DATA_ROOT='releases/usage-mode-20261119/';
+const APP_RELEASE='nihon-chiri-v20-usage-mode';let hintData={items:{}};let playerChosen=false;let registeredAccess=()=>false;let afterPlayerUnlock=()=>{};
 const $=s=>document.querySelector(s),app=$('#app'),KEY='japan-geography-master-v1';let data=[],features=[],view='home',game=null,timer=null,atlasItem=null;let atlasFilters={category:'すべて',region:'すべて',pref:'すべて',progress:'すべて',term:''};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let state={version:1,current:'default',players:[{id:'default',name:'はじめのプレイヤー',icon:'🌱',records:{},sessions:[],resume:null}],settings:{sound:false,reduce:false,strict:false}};

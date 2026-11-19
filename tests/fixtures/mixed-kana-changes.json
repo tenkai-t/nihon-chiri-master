@@ -1,15 +1,15 @@
 {
   "dist/app.js": {
-    "sha256": "fcb571edec67ed464b4cc69b165e49baccba77d86163bceb60565f1f277db8c6",
-    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030. Reference masters-fixed-20261107 release (DATA_ROOT/APP_RELEASE nihon-chiri-v19-masters-fixed). Official masters: region fixed to all and daily mode removed in masters-fixed-20261107 (APP_RELEASE nihon-chiri-v19-masters-fixed)."
+    "sha256": "e5ecfaeb2c39b71acf2bceb226043c8eee797d60d4e153e9953085c4d2bc2778",
+    "reason": "Accept correct mixed kanji/kana answers with per-name reading boundaries; use new release ID. Hide the redundant header button until player selection; reference startup-header-20261030. Reference usage-mode-20261119 release (DATA_ROOT/APP_RELEASE nihon-chiri-v20-usage-mode). Official masters: region fixed to all and daily mode removed in usage-mode-20261119 (APP_RELEASE nihon-chiri-v20-usage-mode). Reference usage-mode-20261119 release (APP_RELEASE nihon-chiri-v20-usage-mode)."
   },
   "dist/index.html": {
-    "sha256": "997cc93e50bebb427a9c28896547b65e95df5a7e97e0e9c65f4811235aecd823",
-    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030. Reference masters-fixed-20261107 release."
+    "sha256": "669f5e6f1cd522bbff316abb6d5bacef15c23781eba89da96d98b3ebb107c427",
+    "reason": "Reference the new immutable mixed-kana release. Hide the redundant header button until player selection; reference startup-header-20261030. Reference usage-mode-20261119 release."
   },
   "dist/sw.js": {
-    "sha256": "5469246c181de68cc3e9ec3a943e0cfd2558ada8a08c6957d8af096346b57203",
-    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030. Reference masters-fixed-20261107 release (RELEASE nihon-chiri-v19-masters-fixed)."
+    "sha256": "a71b593db3e1f9cf0f1cc3e567e7ff63379996c9a05a148893bd98360ab519a6",
+    "reason": "Cache and verify the new release without replacing old caches. Hide the redundant header button until player selection; reference startup-header-20261030. Reference usage-mode-20261119 release (RELEASE nihon-chiri-v20-usage-mode)."
   },
   "dist/online.js": {
     "sha256": "5c02e893c06f1833dd3ee94534a12f73e467b2f100411128ccbc07a471ad472c",
@@ -62,5 +62,9 @@
   "dist/icons/atlas-v7/preview.png": {
     "sha256": "ac57f76a9a87ef6e38fe8f214773aa71f228e3d8dddde25a0fde3c1f6f9d42eb",
     "reason": "Icon renewed to design A (world-master style: deep green, cream Japan, solid gold ring) per owner request 2026-11-04."
+  },
+  "dist/security.js": {
+    "sha256": "32e4ddf436826b0e538ec28e42e670aa4704e360524358f199c1061d0c826ad8",
+    "reason": "Usage modes added 2026-11-19: device-local school (teacher-managed) / home (no passwords, no idle lock, no teacher admin) switching stored under japan-geography-master-v1-usage-mode-v1, mirroring World Master. School behavior unchanged."
   }
 }
